@@ -109,6 +109,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@emotion/babel-plugin": "^11.9.2",
+    "@netlify/plugin-nextjs": "^4.29.3",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-knobs": "^6.1.14",
