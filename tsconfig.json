@@ -1,0 +1,101 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@api/*": [
+        "pages/api/*"
+      ],
+      "@api": [
+        "pages/api"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@pages": [
+        "pages"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@components": [
+        "src/components"
+      ],
+      "@public/*": [
+        "public/*"
+      ],
+      "@public": [
+        "public"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@themes/*": [
+        "src/themes/*"
+      ],
+      "@styles": [
+        "src/styles"
+      ],
+      "@components/icons/*": [
+        "src/components/icons/*"
+      ],
+      "@components/icons": [
+        "src/components/icons"
+      ],
+      "@contracts/*": [
+        "src/contracts/*"
+      ],
+      "@contracts": [
+        "src/contracts"
+      ],
+      "@recoil/*": [
+        "src/recoil/*"
+      ],
+      "@recoil": [
+        "src/recoil"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@test/*": [
+        "test/*"
+      ],
+      "@test": [
+        "test"
+      ]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "test/*"
+  ]
+}

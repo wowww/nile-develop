@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./font";
+@import "./mixins";
+@import "./antd";
+@import "./init-chart";
+@import "./init-swiper";
+
+body {
+  padding-top: 60px;
+  font-family: $fontEN;
+  word-break: keep-all;
+}
+
+.a11y {
+  position: absolute !important;
+  display: block !important;
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  margin: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  word-break: initial !important;
+  word-wrap: initial !important;
+}

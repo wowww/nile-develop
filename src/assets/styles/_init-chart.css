@@ -1,0 +1,40 @@
+.apexcharts-xcrosshairs.apexcharts-active {
+  color: #fff;
+}
+
+.apexcharts-tooltip {
+  overflow: visible !important;
+}
+
+.arrow_box {
+  position: absolute;
+  top: 70px;
+  right: -50%;
+  transform: translateX(50%);
+  background: #1A1A1A;
+  border-radius: 0;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow_box:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -17px;
+  background: transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 7px solid transparent;
+  border-bottom: 10px solid #000;
+  border-right: 7px solid transparent;
+  border-left: 7px solid  transparent;
+}
+
+.arrow_box > span {
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 8px;
+}

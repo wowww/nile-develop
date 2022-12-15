@@ -1,0 +1,106 @@
+[
+  {
+    "key": "category",
+    "name": "Categories",
+    "children": [
+      {
+        "key": "art",
+        "name": "Art",
+        "children": [
+          {
+            "key": "lus",
+            "name": "London Underground"
+          },
+          {
+            "key": "tangled",
+            "name": "Tangled"
+          }
+        ]
+      },
+      {
+        "key": "utility",
+        "name": "Utility",
+        "children": [
+          {
+            "key": "lus",
+            "name": "London Underground"
+          },
+          {
+            "key": "tangled",
+            "name": "Tangled"
+          }
+        ]
+      },
+      {
+        "key": "music",
+        "name": "Music",
+        "children": [
+          {
+            "key": "lus",
+            "name": "London Underground"
+          },
+          {
+            "key": "tangled",
+            "name": "Tangled"
+          }
+        ]
+      },
+      {
+        "name": "Sports",
+        "children": [
+          {
+            "key": "lus",
+            "name": "London Underground"
+          },
+          {
+            "key": "tangled",
+            "name": "Tangled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Details",
+    "children": [
+      {
+        "key": "status",
+        "name": "Status",
+        "children": [
+          {
+            "key": "status",
+            "name": "Upcoming"
+          },
+          {
+            "key": "status",
+            "name": "Closed"
+          },
+          {
+            "key": "status",
+            "name": "Open for Offers"
+          },
+          {
+            "key": "status",
+            "name": "On Auction"
+          },
+          {
+            "key": "status",
+            "name": "For Sale"
+          },
+          {
+            "key": "status",
+            "name": "Not for Sale"
+          }
+        ]
+      },
+      {
+        "key": "status",
+        "name": "Price Range"
+      },
+      {
+        "key": "status",
+        "name": "Sorting"
+      }
+    ]
+  }
+]

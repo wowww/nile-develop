@@ -1,0 +1,22 @@
+[
+  {
+    "id": "family-40wonders",
+    "name": "40 WONDERS",
+    "link": "https://40wonders.wemix.com"
+  },
+  {
+    "id": "family-wemix",
+    "name": "WEMIX",
+    "link": "https://www.wemix.com"
+  },
+  {
+    "id": "family-wemix-play",
+    "name": "WEMIX PLAY",
+    "link": "https://www.wemixplay.com"
+  },
+  {
+    "id": "family-wemix-fi",
+    "name": "WEMIX.FI",
+    "link": "https://wemix.fi"
+  }
+]

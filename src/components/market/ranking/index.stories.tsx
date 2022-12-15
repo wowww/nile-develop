@@ -1,0 +1,198 @@
+import React from 'react';
+
+import { ComponentMeta, ComponentStory } from '@storybook/react';
+
+import { MarketRanking } from './index';
+
+export default {
+  title: 'Market/Ranking',
+  component: MarketRanking,
+} as ComponentMeta<typeof MarketRanking>;
+
+const Template: ComponentStory<typeof MarketRanking> = (args) => <MarketRanking {...args} />;
+
+export const Default = Template.bind({});
+
+Default.args = {
+  data: {
+    transactionRankingList: [
+      {
+        ranking: '1',
+        rankingChange: 4,
+        name: 'P05 Piccadilly circus',
+        collectionName: 'London Underground Station 264 Genesis',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '2',
+        rankingChange: -4,
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz ',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '3',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '4',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '5',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '6',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '7',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '8',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '9',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+      {
+        ranking: '10',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        transitionDay: 1234,
+      },
+    ],
+    highestRankingList: [
+      {
+        ranking: '1',
+        rankingChange: 4,
+        name: 'P05 Piccadilly circus',
+        collectionName: 'London Underground Station 264 Genesis',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: 24.5,
+      },
+      {
+        ranking: '2',
+        rankingChange: -4,
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '3',
+        rankingChange: -4,
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '4',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '5',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '6',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '7',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '8',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '9',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+      {
+        ranking: '10',
+        name: 'abcdefghijklnmopqrstuvwxyz abcdefghijklnmopqrstuvwxyz',
+        collectionName: 'abcdefghijklnmopqrstuvwxyzabcdefghijklnmopqrstuvwxyz',
+        img: '/img/banner/img_A02_Aldgate.png',
+        link: '/marketplace/collection',
+        price: '1,000,000.0000',
+        priceChange: -24.5,
+      },
+    ],
+  },
+};

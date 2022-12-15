@@ -1,0 +1,76 @@
+{
+  "a11y": {
+    "settingProfile": "프로필 설정",
+    "gotoSetting": "setting 화면으로 이동",
+    "copyWallerAdd": "지갑 주소 복사"
+  },
+  "tooltip": {
+    "totalAsset": "DAO Balance와 NFT Price을 합산한 금액입니다.",
+    "includedDAO": "참여 중인 모든 DAO에서 보유하고 있는 DAO Token과 Governance Token을 달러로 환산하여 합산된 금액입니다.",
+    "nftPrice": "My NFT Price는 내가 구매한 가격을 기준으로 합산된 금액입니다."
+  },
+  "toast": {
+    "walletCopy": "지갑 주소가 복사되었습니다."
+  },
+  "filters": "필터",
+  "empty": {
+    "ownedNft": "소유하고 있는 NFT가 없습니다.\nMarketplace에서 다양한 NFT를 만나보세요!",
+    "nft": "컬렉션 NFT가 없습니다.\nMarketplace에서 다양한 NFT를 만나보세요!",
+    "favorites": "‘좋아요’한 NFT가 없습니다.\nMarketplace에서 다양한 NFT를 만나보세요!",
+    "activity": "활동한 내역이 없습니다.",
+    "results": "조건을 만족하는 결과가 없습니다.",
+    "searchDefault": "검색 결과가 없습니다.",
+    "search": "에 해당하는 검색 결과가 없습니다."
+  },
+  "statusFilter": {
+    "upcoming": "오픈 예정",
+    "closed": "종료",
+    "makePriceOffer": "제안 받기",
+    "onAuction": "응찰 중",
+    "buyNow": "지금 구매하기",
+    "notForSale": "미판매"
+  },
+  "NFTAlbum": "컬렉션 수집 현황",
+  "album": {
+    "title": "NFT 컬렉션 수집 현황",
+    "subTitle": "전체 컬렉션 중 내가 소유한 NFT 개수를 확인할 수 있어요."
+  },
+  "search": "NFT명을 검색하세요.",
+  "table": "환불받기",
+  "profileSetting": {
+    "title": "프로필 설정",
+    "desc": "보유한 NFT를 프로필 사진으로 설정 가능합니다.",
+    "userName": "사용자명",
+    "userNamePlaceholder": "사용자명을 입력해 주세요",
+    "userNameValidCorrect": "사용 가능한 이름 입니다.",
+    "userNameValidNotAllowed": "공백 및 특수문자 입력이 불가합니다.",
+    "userNameValidCount": "한글 2-4글자, 영문 4-16글자 사이로 입력해 주세요.",
+    "userNameValidAlreadyUse": "이미 사용중인 이름 입니다.",
+    "about": "소개",
+    "aboutPlaceholder": "소개글을 입력해 주세요.",
+    "social": "소셜 계정 연결",
+    "socialDesc": "소셜 계정을 연결하여 본인 계정임을 확인해 주세요.",
+    "socialButton": "연결",
+    "disconnectSocial": "소셜 계정 연결 해제",
+    "link": "링크",
+    "linkPlaceholder": "웹사이트 URL을 입력해 주세요.",
+    "asset": "Asset 공개 범위",
+    "public": "전체공개",
+    "onlyMe": "나만보기",
+    "cancel": "취소하기 ",
+    "save": "저장하기",
+    "confirmCancel": "입력 취소 확인",
+    "confirmCancelDesc": "프로필 입력을 취소하시겠습니까?\n취소 시 변경사항은 저장되지 않습니다.",
+    "close": "닫기",
+    "yesClose": "예, 취소합니다."
+  },
+  "pfp": {
+    "title": "프로필 사진 선택",
+    "default": "기본 프로필 설정",
+    "cancel": "취소하기",
+    "apply": "적용하기",
+    "empty1": "소유하고 있는 NFT가 없습니다. \nMarketplace에서 다양한 NFT를 만나보세요!",
+    "empty2": "Marketplace 바로가기",
+    "profile": "프로필"
+  }
+}

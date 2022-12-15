@@ -1,0 +1,390 @@
+{
+  "cookies": {
+    "title": "Welcome to WEMIX!",
+    "content": "We use cookies to allow you to visit our website and use its functions. Some cookies are strictly necessary for the operation of our website and cannot be deactivated. Other cookies help us to improve your experience with our website by providing us with statistics or enabling us to remember your preferences. You can allow the use of all cookies or just essential cookies by clicking one of the below. You can change your preference at any time in the Cookie Settings and learn more about cookies and how we use them by clicking here:",
+    "anchorPrivacyPolicy": "Cookie Policy.",
+    "btnAllowAll": "Allow all cookies",
+    "btnAllowEssential": "Only allow essential cookies"
+  },
+  "terms": {
+    "title": "Terms of service",
+    "date": "Last Update: October 13th, 2022",
+    "h3-1": {
+      "title": "Article 1 Objective and Application Scale",
+      "list": {
+        "1": "These Terms of Service aim to define the rights and obligations between the user and the member and the service provider, WEMIX PTE. LTD (hereinafter the “Company”), regarding the entire service (see the Definition of Terms in Article 2 Clause 1,hereinafter the “WEMIX Service”) and explain what is applied by using the service of a company provided on a third -party website or the platform. However, in the case of the WEMIX onboarding game, excluding contents related to the WEMIX Service, which is independently serviced by a third party, please note that the terms and conditions of each game are applied first.",
+        "2": "Users and members recognize that they are adults with legal ability to use the service by using WEMIX Service, and they are considered to fully understand the terms and conditions of this use and agree to all items in the Terms of Service. If a user or member has no legal ability to use WEMIX Service or does not agree with these terms of use, he or she must stop any actions that access or use WEMIX Service.",
+        "3": "The user and the member agree that when using the WEMIX Service, all services may be stopped and changed at any time, depending on the blockchain network, technology, environment, and all matters. When using the WEMIX Service or service directly connected to the WEMIX Service, it is considered to be agreed to the contents specified in this document."
+      }
+    },
+    "h3-2": {
+      "title": "Article 2 Definition of Terms",
+      "desc": "The Terms herein shall be defined as follows :",
+      "list": {
+        "1": {
+          "desc": "“WEMIX Service” refers to each services on the following items provided by WEMIX PLAY(www.wemixplay.com), WEMIX homepage(www.wemixnetwork.com), WEMIX3.0(wemix.com), PLAY WALLET, WEMIX Wallet, and WEMIX.Fi, and NILE.",
+          "list": {
+            "1": "(1) Providing Digital Asset Information: It is a service providing information about the digital asset such as prices of WEMIX COIN, WEMIX$, WEMIX TOKEN, WEMIX CREDIT and each WEMIX onboarded game tokens etc. Please refer to Article 3 Clause 2 for details.",
+            "2": "(2) Providing Game Information: User and member can find information about WEMIX onboarded games through the game information introduction page in WEMIX PLAY(Game introduction, service homepage link etc.). Please refer to Article 3 Clause 2 for details.",
+            "3": "(3) Stake 360: It is a staking service provided independently only in the WEMIX PLAY. Please refer to Article 3 Clause 5 for details.",
+            "4": "(4) REFLECT: It is a service related to synthesization of digital assets. Please refer to Article 3 Clause 6 for details.",
+            "5": "(5) PLAY WALLET refers to the blockchain technology based online electronic wallet provided by the Company. Through PC, mobile application, and website, user stores encrypted private and public key used for managing, trading, and exchanging digital assets, and it is used for using services such as trading, exchanging in WEMIX platform. For details about PLAY WALLET service, please refer to Article 3 Clause 2.",
+            "6": "(6) WEMIX Wallet refers to a blockchain technology based online electronic wallet service that the company provides based on the WEMIX3.0 mainnet. The user manages all authorities necessary for blockchain service such as private key, password etc. with WEMIX  WALLET. The service is based on WEMIX3.0 mainnet and is provided via PC, mobile application, and website and users can use services such as purchase, trade, exchange etc. within the Service.\nPlease refer to Article 3 Clause 3 for details of WEMIX Wallet service.",
+            "7": "(7) Providing Whitepaper: Whitepaper is provided to find information regarding digital assets such as WEMIX TOKEN, WEMIX COIN, WEMIX$ etc.",
+            "8": "(8) SCOPE, Explorer: It is a blockchain search feature that enables search function for  each transaction occurring in mainnet, or private/service chains."
+          }
+        },
+        "2": "“Member“ refers to a person who linked his/her own PLAY WALLET account with the procedures required by the Company and using WEMIX Service.",
+        "3": "“User” refers to a person who is using WEMIX Service without linking a WEMIX Wallet account. (However, users who did not link their PLAY WALLET account can not use the STAKING and REFLECT service.)",
+        "4": "“Game” refers to all types of electronic video games.",
+        "5": "“Digital Asset” refers not limited to blockchain technology but all blockchain based items or data including cryptocurrency, game token, coin, NFT and other derivative digital assets etc.",
+        "6": "“NFT(Non-fungible Token)” refers to any digital asset on blockchain that is not mutually interchangeable with other tokens. Within the Service, certain in-game items are provided as NFT.",
+        "7": "“Cryptocurrency” refers to coin (cryptocurrency issued based on independent blockchain network mainnet) and token (cryptocurrency issued on mainnet such as open public chain without independent blockchain network mainnet). On WEMIX Platform, WEMIX Token is used as key currency that can be exchanged with game tokens or used as a means of purchase.",
+        "8": "WEMIX TOKEN is a digital asset issued on Klaytn mainnet which can be exchanged to WEMIX CREDIT at 1:1 ratio. It can be exchanged for game tokens within each service or used as a medium of purchase. After the launch of WEMIX3.0 mainnet, WEMIX TOKEN will be renamed as “WEMIX CLASSIC” and it can’t be used in WEMIX3.0 mainnet-based services. In the future, WEMIX Platform may provide a transition service between WEMIX TOKEN and WEMIX COIN called Bridge service and its detailed policy will be announced by announcement or within the Service when it is provided. Please refer to Article 3 Clause 10 for Bridge service details.",
+        "9": "WEMIX COIN is a digital asset issued based on WEMIX3.0 mainnet and it can be used within WEMIX3.0 mainnet-based services such as WEMIX Wallet, WEMIX.Fi, NILE, Game services etc.",
+        "10": "WEMIX$ is a digital asset pegged with a dollar and use USDC as collateral. WEMIX$ can be used in WEMIX3.0 mainnet-based services such as WEMIX Wallet, WEMIX.Fi, NILE, and game services etc.",
+        "11": "“Game Token” refers to the tokens that can be used for using the contents of game service on WEMIX platform or medium of exchange(token) such as purchasing game items, and more of such.",
+        "12": "“Dormant Account” refers to any account that has not been active for a long period of time.",
+        "13": "“Private Key” refers to a code (random combination of number and text) that is 1:1 matched with the PLAY WALLET, WEMIX Wallet’s address and it is an important key to process all signatures of the PLAY WALLET, WEMIX Wallet. Since the private key has a power of signature, it can be used by the third party when exposed externally. Extra care is required for the management.",
+        "14": "“WEMIX PLATFORM” refers to the entire blockchain based services the Company provides such as WEMIX Wallet, WEMIX DEX, WEMIX NFT MARKET, WEMIX AUCTION, WEMIX PLAY, WEMIX3.0, NILE, WDS etc. In WEMIX platform, you can use services such as trading, DeFi(decentralized financial services) e.g. WEMIX, various game tokens, and NFT etc.",
+        "15": "“Defi(decentralized financial services)” refers to financial services embodied on the blockchain network that do not go through centralized financial institutions. In WEMIX.Fi, WEMIX Platform, you can use services such as REFLECT and Stake360 etc."
+      }
+    },
+    "h3-3": {
+      "title": "Article 3 Service",
+      "desc": "The Company offers a variety of services which may include purchasing, trading or exchange contents. To interact with our STAKING and REFLECT Services, a user and member must have a registered account or WEMIX Wallet in the PLAY WALLET service. Product information, pricing and availability of products listed in the WEMIX Platform are subject to change at all times.",
+      "h4-1": {
+        "title": "1. Detailed Guide Terms by Services",
+        "desc": "Prior to using the WEMIX Service, please read carefully the Detailed Guide Terms by Services. Proper use and precaution will be provided when a user or member uses the WEMIX Service. Digital assets may be required for use of some services and fees may occur depending on the service use. When the user or member uses WEMIX Service or service directly connected to the WEMIX Service, please be aware that the user or member agrees to the precautions, detailed guide terms etc. that the Service provides. Due to the characteristics of the blockchain technology, used digital assets etc. such as transactions occurred with purchase etc., can not be returned."
+      },
+      "h4-2": {
+        "title": "2. PLAY WALLET",
+        "desc": "The Company may provide online wallet service through web or application for digital asset management. To use PLAY WALLET service, information such as ID, Password is required. The Company does not separately save, manage password etc., It is technically impossible for Company to restore such. Therefore, to use PLAY WALLET, the user is responsible for storing, and managing all information required to use PLAY WALLET and the Company is not liable for restoring if the user lost such information. The management of the digital wallet includes but not limited to storing, sending, exchanging, trading, financial service, and WEMIX PLAY service and the service may expand through updates etc. THE COMPANY DOES NOT GUARANTEE COMPLETENESS OF INTEGRITY OF SERVICES THAT INCLUDE DIGITAL ASSET STORING, SENDING, EXCHANGING, TRADING, FINANCIAL SERVICES ETC. AND DOES NOT GUARANTEE LOSS OR REWARDS OCCURRED THROUGH THE SERVICE. A MEMBER AGREES THAT ALL SERVICES MAY SUSPEND OR CHANGE AT ALL TIMES DEPENDING ON THE BLOCKCHAIN NETWORK, TECHNOLOGY, ENVIRONMENT, AND SEVERAL CIRCUMSTANCES. WHEN USING THE SERVICE, IT IS CONSIDERED TO BE AGREED TO THE CONTENTS SPECIFIED IN THIS DOCUMENT.\nTHE TAX TREATMENT OF DIGITAL ASSET TRANSACTIONS IS UNCERTAIN, AND IT IS THE MEMBER’S RESPONSIBILITY TO DETERMINE WHAT TAXES, IF ANY, ARISE FROM THESE TRANSACTIONS. MEMBERS ARE SOLELY RESPONSIBLE FOR REPORTING AND PAYING ANY APPLICABLE TAXES ARISING FROM STAKING THROUGH THE COMPANY'S SERVICE AND ALL RELATED TRANSACTIONS, AND ACKNOWLEDGE THAT THE COMPANY DOES NOT PROVIDE INVESTMENT, LEGAL, OR TAX ADVICE TO A MEMBER IN CONNECTION WITH SUCH ELECTION TO PARTICIPATE. A MEMBER SHOULD CONDUCT THEIR OWN DUE DILIGENCE AND CONSULT ADVISORS BEFORE MAKING ANY INVESTMENT DECISION INCLUDING WHETHER TO PARTICIPATE IN SERVICE AND RELATED TRANSACTIONS."
+      },
+      "h4-3": {
+        "title": "3. WEMIX Wallet",
+        "desc": "The Company may provide online wallet service via web or application based on the WEMIX3.0 mainnet for digital asset management. Information such as the password, private key, and mnemonic phrase etc. are required to use for the WEMIX Wallet Service. The Company does not separately save or manage password etc.and it is technically impossible for Company to restore . Therefore, to use WEMIX Wallet, the user is responsible for storing, and managing all information required to use WEMIX Wallet. The Company does not bear any liability such as restoring the information etc.\nThe digital asset management includes but is not limited to store, transfer, exchange, trade, financial service and WEMIX Fi, Nile etc. and the Service may expand through an update etc. THE COMPANY DOES NOT GUARANTEE COMPLETENESS OF INTEGRITY OF SERVICES THAT INCLUDE DIGITAL ASSET STORING, SENDING, EXCHANGING, TRADING, FINANCIAL SERVICES ETC. AND DOES NOT GUARANTEE LOSS OR REWARDS OCCURRED THROUGH THE SERVICE. A MEMBER AGREES THAT ALL SERVICES MAY SUSPEND OR CHANGE AT ALL TIMES DEPENDING ON THE BLOCKCHAIN NETWORK, TECHNOLOGY, ENVIRONMENT, AND SEVERAL CIRCUMSTANCES. WHEN USING THE SERVICE, IT IS CONSIDERED TO BE AGREED TO THE CONTENTS SPECIFIED IN THIS DOCUMENT.\nTHE TAX TREATMENT OF DIGITAL ASSET TRANSACTIONS IS UNCERTAIN, AND IT IS THE MEMBER’S RESPONSIBILITY TO DETERMINE WHAT TAXES, IF ANY, ARISE FROM THESE TRANSACTIONS. MEMBERS ARE SOLELY RESPONSIBLE FOR REPORTING AND PAYING ANY APPLICABLE TAXES ARISING FROM STAKING THROUGH THE COMPANY'S SERVICE AND ALL RELATED TRANSACTIONS, AND ACKNOWLEDGE THAT THE COMPANY DOES NOT PROVIDE INVESTMENT, LEGAL, OR TAX ADVICE TO A MEMBER IN CONNECTION WITH SUCH ELECTION TO PARTICIPATE. A MEMBER SHOULD CONDUCT THEIR OWN DUE DILIGENCE AND CONSULT ADVISORS BEFORE MAKING ANY INVESTMENT DECISION INCLUDING WHETHER TO PARTICIPATE IN SERVICE AND RELATED TRANSACTIONS."
+      },
+      "h4-4": {
+        "title": "4. SCOPE, Explorer",
+        "desc": "The provides a service enabling search of block creation and transaction occurring in the mainnet or private/service chain. Nonetheless, it does not guarantee the completeness or integrity of the information provided. The user or member can terminate the service or reject the use anytime. A member agrees that all services may suspend or change at all times depending on the blockchain network, technology, environment, and several circumstances."
+      },
+      "h4-5": {
+        "title": "5. Coin and Game Information through WEMIX PLAY",
+        "desc": "The Company may provide informational service regarding values or trading status(market price) of each digital asset through WEMIX PLAY. Nonetheless, it does not guarantee a completeness or integrity of the information provided. The user or member can terminate the service or reject the use anytime.\nThere are various types of game genres that WEMIX PLAY introduces and methods of acquiring digital assets may differ according to the type of game. User or member must agree to the separate policies like terms and conditions and privacy policy when using the game service and responsibility for service use is with the game service provider. Thus, the Company is not responsible for changes of digital asset value due to changes in contents, policies within the game."
+      },
+      "h4-6": {
+        "title": "6. Stake 360",
+        "desc": "Staking is a practice through which token holders store or deposit their tokens in a designated location for a certain period of time. The Company may provide Staking service of digital assets supported in the Service, in which members can freely participate and expect Staking rewards. When a member participates in the Company’s Staking Service, a member agrees to deposit and allow the Company to store member’s tokens for a period of time.  Staking Service is optional and a MEMBER IS NOT REQUIRED TO STAKE WITH THE COMPANY AND CAN OPT-OUT OF ANY STAKING SERVICES AT ANY TIME.\nIn some services of the Staking Service, rewards can be redeemed after storing for some period of time and penalties specipied in the service may be applied when the staking is canceled. The Company does not ,in any situation, guarantee about the changes in digital assets value.\nThe expected Staking rewards may occur under the blockchain rules of the tokens staked. However, The Company DOES NOT GUARANTEE that the member will receive a fixed Staking reward rate. The Company may change or suspend the details of Staking Service by enacting or revising the ‘Company’. The Company may provide specific details of Staking Service usage on a separate Service Page. When utilizing the Staking Service, a member agrees that the details of Staking Service are susceptible to change, in accordance with blockchain network, technology, environment, and more. Please note that you agree to these Staking Terms set out in this document when you utilize Staking Service or services directly connected to the Service.\nThe tax treatment of Digital Asset transactions is uncertain, and it is the member’s responsibility to determine what taxes, if any, arise from these transactions. Members are solely responsible for reporting and paying any applicable taxes arising from staking through The Company's Staking Service and all related transactions, and acknowledge that the Company does not provide investment, legal, or tax advice to a member in connection with such election to participate. A member should conduct their own due diligence and consult advisors before making any investment decision including whether to participate in Staking Service and related transactions.\nFor detailed information about the STAKE360, please refer to Detailed Guide Terms mentioned below.",
+        "link": "https://wemixplay.com/stake360"
+      },
+      "h4-7": {
+        "title": "7. REFLECT",
+        "desc": "It refers to generating a combined digital asset called ‘REFLECT’ by using a member's own digital asset, a member can fusion or fission REFLECT anytime with own discretion. A member can optionally use the REFLECT service and can suspend or reject the service use anytime. However, the Company does not guarantee a change of value of the digital assets and REFLECT when a member is generating a REFLECT and the Company does not guarantee a reward etc. occurring through the service. A member agrees that, when using REFLECT service, all services may suspend, change according to blockchain network, technology, environment, and other issues. It is deemed that the member agrees with the contents specified in this document when using the REFLECT service or service directly connected with the Service.\nThe tax treatment of Digital Asset transactions is uncertain, and it is the member’s responsibility to determine what taxes, if any, arise from these transactions. Members are solely responsible for reporting and paying any applicable taxes arising from the Company’s service and all related transactions, and acknowledge that the Company does not provide investment, legal, or tax advice to a member in connection with such election to participate. A member shall conduct their own due diligence and consult advisors before making any investment decision including whether to participate in Staking Service and related transactions.\nFor detailed information about the STAKE360, please refer to Detailed Guide Terms mentioned below.",
+        "link": "https://wemixplay.com/reflect/fusion"
+      },
+      "h4-8": {
+        "title": "8. WEMIX3.0",
+        "desc": "WEMIX3.0 mainnet and testnet are high-performance open source protocols designed based on the decentralization, security, and scalability. Users and members can manage digital assets such as WEMIX$ and use blockchain services through WEMIX3.0. Nonetheless, it does not guarantee completeness or integrity of the information provided. The user or member can suspend or reject the service use anytime. By using the Service, a member agrees that all services may suspend or change at all times depending on the blockchain network, technology, environment, and several circumstances. When using the service, it is considered to be agreed to the contents specified in this document."
+      },
+      "h4-9": {
+        "title": "9. WEMIX.Fi",
+        "desc": "WEMIX.Fi is a service where allows holders of WEMIX platform digital assets to access decentralized financial services. The Company provides services such as Swap, where you can exchange digital assets at the market price in an optimum method. Pool, where members can provide their digital assets to the Pool and receive claimable rewards. Tokens, you can find digital asset information provided by WEMIX.Fi. Staking, where you can stake digital assets and acquire rewards. Borrow, you can borrow different digital assets with your digital asset as collateral. Bridge, you can send and receive coins by connecting digital assets of other networks. Dashboard, where you can find digital asset status of WEMIX.Fi. Portfolio, where members can find their digital asset status and members can expect rewards by freely participating and using the services.When the Member participated in Company’s WEMIX.FI service, it is deemed that the Member agreed that the Company provides financial service using the Member’s digital asset. WEMIX.Fi service is optional and the Member can reject or suspend the service anytime. The partial service among WEMIX.Fi service can receive rewards using digital assets and may receive a specified penalties when canceling currently participating service.The Company, in any circumstances, does not guarantee the value fluctuation of digital asset of services provided in WEMIX.Fi. Expected rewards of Service may occur according to rules such as blockchain contract etc. The Company, under fixed conditions, may change or suspend WEMIX.FI service content by enacting or reforming the ‘Company’. The Company may provide detailed content about WEMIX.Fi service use at separate service page. When using the Service, the Member agrees that each service content may change according to blockchain network, technology, and environment etc. It is deemed that Member agrees to the Terms of Service specified in this document when using the service directly connected to the WEMIX.Fi service or the Service. THE TAX TREATMENT OF DIGITAL ASSET TRANSACTIONS IS UNCERTAIN, AND IT IS THE MEMBER’S RESPONSIBILITY TO DETERMINE WHAT TAXES, IF ANY, ARISE FROM THESE TRANSACTIONS. MEMBERS ARE SOLELY RESPONSIBLE FOR REPORTING AND PAYING ANY APPLICABLE TAXES ARISING FROM COMPANY’S WEMIX.Fi SERVICE AND ALL RELATED TRANSACTIONS, AND ACKNOWLEDGE THAT THE COMPANY DOES NOT PROVIDE INVESTMENT, LEGAL, OR TAX ADVICE TO A MEMBER IN CONNECTION WITH SUCH ELECTION TO PARTICIPATE. MEMBERS SHOULD CONDUCT THEIR OWN DUE DILIGENCE AND CONSULT ADVISORS BEFORE MAKING ANY INVESTMENT DECISION INCLUDING WHETHER TO PARTICIPATE IN INWEMIX.Fi SERVICE AND RELATED TRANSACTIONS. For details regarding WEMIX.Fi excluding the contents specified above, please refer to the detailed terms provided below.",
+        "link": "https://wemix.fi/"
+      },
+      "h4-10": {
+        "title": "10. Bridge Service",
+        "desc": "The WEMIX Platform may provide a migration service between WEMIX TOKEN and WEMIX COIN directly or through the third party service, called Bridge Service. Users or Members can optionally use the service and can suspend the service use anytime.Fees may occur for using Bridge service and the Member shall bear such fees. The User is responsible for transation and signature etc. occuring during the service use and User shall check the information such as the receipient’s wallet address to prevent wrong transfer etc. and sign the transaction."
+      }
+    },
+    "h3-4": {
+      "title": "Article 4 Use of WEMIX Service",
+      "h4-1": {
+        "title": "1. Effect and modification of Terms of Service",
+        "desc": "The Company, if deemed necessary, can modify these Terms of Service to the extent that it does not violate the relevant laws and regulations. Any modified contents shall be announced or notified by Company via electronic methods, including, but not limited to : email address, electronic notice in the Service or pop-up message. Please note that a user or member acknowledges and accepts that these Terms of Service and/or the Service may be amended, modified, or altered at any time without a notice at discretion of the Company.\nContinued use of the Service after any modifications of these Terms of Service shall constitute the user or members consent and acceptance of any such changes, modifications, or alterations. If a user or member does not agree to the revised Terms of Service, the user or member may terminate the Service Agreement through discontinuation of use of Service or withdraw membership at any time. The date of the most recent modifications will be indicated at the top of these Terms of Service."
+      },
+      "h4-2": {
+        "title": "2. Registration",
+        "desc": "Those who wish to be a Member must complete registration according to the PLAY WALLET, WEMIX Wallet registration procedure as below to use the service. All responsibilities are bound to the User for registering with wrong ID, password etc. The PLAY WALLET’s password, WEMIX Wallet’s password, and mnemonic phrase etc. entered during the registration are not saved nor managed and assistance is not supported when it is lost.",
+        "list": {
+          "1": "A) PLAY WALLET Registration Procedure",
+          "2": "B) WEMIX Wallet Registration Procedure"
+        },
+        "list-1": {
+          "1": "Install PLAY WALLET application",
+          "2": "Login with social media account (Google, Apple, WeChat, or Facebook etc.)",
+          "3": "Agree to the policy",
+          "4": "Create ID (lower case letter + number)",
+          "5": "Create password (Used for all transaction signature such as digital asset transfer, service consent etc.)",
+          "6": "Wallet created"
+        },
+        "list-2": {
+          "1": "Install WEMIX Wallet application",
+          "2": "Agree to the policy",
+          "3": "Create password",
+          "4": "Register biometric use (Face ID/Touch ID, this may skipped if unavailable or undesirable)",
+          "5": "Create mnemonic phrase (combination of 12 words used for restoring private key)",
+          "6": "Check mnemonic phrase",
+          "7": "Wallet created"
+        }
+      },
+      "h4-3": {
+        "title": "3. User and Member’s Consent and Negligence",
+        "desc": "By using the Company’s Service, user or member agree with following conditions under the applicable law :",
+        "ullist": {
+          "1": "User or member has all necessary knowledge to deal with digital items and/or Blockchain-based systems, have a full understanding of their framework, are aware of all the merits, risks and any restrictions associated with digital assets.",
+          "2": "User or member will neither use the Service for any illegal activity nor shall be engaged in any illegal activity.",
+          "3": "A user or member solely controls their credentials (email address, password or other information provided for the purpose of the Service use) and does not act on behalf of any third party.",
+          "4": "To provide better Service, the Company may display in the Service Page or send out via email various information including notices, admin messages and other advertisements regarding use of the Service. If a user or member does not wish to receive such email, please contact our customer service at help@wemixplay.com."
+        }
+      },
+      "h4-4": {
+        "title": "4. Warranty",
+        "desc": "THE SERVICE MAY CONTAIN CONTENTS OF THE COMPANY’S PARTNERS, VENDORS, GAME DEVELOPERS, ETC. AND/OR LINKS TO THIRD-PARTY WEBSITES AND SERVICES. SUCH SERVICES AND/OR LINKS ARE PROVIDED FOR USERS’ CONVENIENCE, AND THE COMPANY DOES NOT GUARANTEE, SUGGEST OR IMPLY THE SAFETY OF ANY THIRD-PARTY WEBSITE OR THE LEGALITY OR CONFORMITY OF ANY SUCH THIRD-PARTY SERVICE.\nTHE COMPANY IS NOT RESPONSIBLE FOR MAINTAINING ANY MATERIALS REFERENCED FROM ANOTHER SITE, AND MAKES NO WARRANTIES, NOR ENDORSEMENT FOR THAT SITE OR RESPECTIVE SERVICE. THE COMPANY ASSUMES NO OBLIGATIONS IN THE EVENT OF ANY DAMAGE OR LOSS, OR ANY OTHER IMPACT, DIRECTLY OR INDIRECTLY RESULTING FROM THE USE OF ANY CONTENT, GOODS OR SERVICES AVAILABLE ON OR THROUGH ANY SUCH THIRD-PARTY SERVICES AND RESOURCES. PLEASE ALSO NOTE THAT THESE SERVICES MAY HAVE THEIR OWN POLICIES. THE COMPANY IS NOT RESPONSIBLE NOR LIABLE IN ANY WAY TO YOU OR ANY THIRD PARTY IN RESPECT OF THOSE POLICIES."
+      },
+      "h4-5": {
+        "title": "5. Updates",
+        "desc": "The Company may deploy or provide patches, updates, upgrades, content or other modifications to the Services for reasonable purposes. These updates may result in the Services being temporarily unavailable. In certain circumstances, we may suspend, withdraw or disable the Service for longer periods while we deploy these updates.",
+        "desc2": "Service suspension due to any of the causes shall be notified or announced through email or pop-up message from the Service. Any causes that the Company is unable to predict, nor control shall be an exception of prior notification or announcement. However, even for such exceptional causes, the Company shall exert its utmost effort to recover the Service at the earliest possible time."
+      },
+      "h4-6": {
+        "title": "6. Dormant Account Policy",
+        "desc": "A Member’s account is converted to a “Dormant Account” after one(1) year period of no record of log-in. A dormant account is notified of its conversion to a dormant account 30 days prior to the conversion.",
+        "desc2": "All information of the account is deleted with exception for the least information including, but not limited to, email address and wallet address, and the account is suspended three (3) years after conversion to a dormant account. Members are also notified 30 days prior to suspension of account. A Member alone is responsible for any information that has been deleted since the account has converted to a dormant account. The Dormant Account Policy does not apply to WEMIX Wallet as the Member manages its own private key."
+      },
+      "h4-7": {
+        "title": "7. Naming Policy",
+        "desc": "Naming Policy is applicable to all names selected by users in the Service provided by the Company. Generally, all IDs can be created without any restriction. However, the names that violate the naming policy shown below can be arbitrarily deleted or changed at the sole discretion of the Company.",
+        "ullist": {
+          "1": "Any form of name that is offensive to others (including, but not limited to, abuse, slander, criticism, violent words)",
+          "2": "A name that is anti-social and contrary to applicable laws",
+          "3": "A name related to illegal activities",
+          "4": "A name that slanders or defames specific group, race or religion",
+          "5": "A name that may invade the trademark rights of other third parties",
+          "6": "A similar name that impersonates another user",
+          "7": "A name deemed to have advertising intent (including the purpose of promotion and profit of a specific organization)",
+          "8": "A name related to WEMIX Platform, WEMIX3.0, NILE, WDS etc. (A name that may mislead service provision of the Company. Examples include WEMIX Team, WEMIX PLAY Team, Administrator, Operator, assistant and NPC impersonation)",
+          "9": "A name that slanders or defends a specific politician or political party.",
+          "10": "Other names that may impede healthy Service operation."
+        },
+        "desc2": "The Company may take prompt action in accordance with the Naming Policy on names that may not be on the list above, but may cause discomfort to other users."
+      },
+      "h4-8": {
+        "title": "8. Fraud Policy",
+        "desc": "Fraudulent activity within the service refers to any activity that intentionally deceives other users for profit. The Company may restrict fraudulent users to create a healthy WEMIX Service environment. Recovery measures for damages incurred by fraudulent activity are not provided, for such damage is caused by personal carelessness and negligence."
+      },
+      "h4-9": {
+        "title": "9. Account Theft Policy",
+        "ullist": {
+          "1": "Account theft refers to any activity that damages a member's account information (including, but not limited to, PLAY WALLET’s ID, password, email, asset, WEMIX Wallet password, private key, mnemonic phrase etc.) by extortion of information registered in the account.",
+          "2": "Account theft is a violation of applicable laws and regulations, and the Company is not responsible for any civil or criminal actions that may occur internally or externally to users in such violation. In addition, if it is confirmed that the personal information of another user has been used illegally without consent of the user, the use of Service of all accounts related to account theft may be restricted.",
+          "3": "IN THE CASE OF ACCOUNT THEFT, RECOVERY MEASURES FOR INCURRED DAMAGES ARE NOT PROVIDED, FOR SUCH ACCOUNT THEFT IS FULLY ATTRIBUTABLE TO THE USER WHO HAS FAILED TO FULFILL OWN OBLIGATION TO PROTECT PERSONAL INFORMATION."
+        }
+      },
+      "h4-10": {
+        "title": "10. Failure Recovery Policy",
+        "desc": "Digital assets that have been lost due to technical errors or bugs while using the Service will be recovered to the extent to which the Service is not overwhelmed, after record confirmation. However, changed data attributed to personal carelessness and negligence of the user or member cannot be recovered."
+      },
+      "h4-11": {
+        "title": "11. Protection and Use of Personal Information",
+        "desc": "The Company, pursuant to the related law, strives to protect member’s personal information, and complies with the related law and Company’s Privacy Policy regarding protection and use of Personal Information. On the contrary, excluding the Service provided by the Company, the Company’s Privacy Policy does not apply to the linked services and such linked services are bound to the service provider’s Privacy Policy. Pursuant to the characteristics of the Service, introductory information such as nickname, character picture which are irrelevant to the member’s personal information may be disclosed. The Company does not provide member’s personal information without consent of the account holder unless requested by the national institutions to abide by the related law. The Company is not responsible for damage done with exposure of personal information due to attributable reasons of the member."
+      }
+    },
+    "h3-5": {
+      "title": "Article 5 Obligations of Contracting Parties",
+      "list": {
+        "h4-1": {
+          "title": "1. The following activities are prohibited",
+          "ullist": {
+            "1": "Inappropriate or unjustifiably use of other user or member’s account and password.",
+            "2": "Upload lewd materials, disparaging or inappropriate materials, or connect (link) such websites on the bulletin board or any public space or the Service.",
+            "3": "Violate or infringe other rights of the Company or a third-party including copyright.",
+            "4": "Cause malfunction of equipment, and/or destroy and disrupt information related to the Service.",
+            "5": "Collect, store and/or disclose other member's personal information.",
+            "6": "Circulate false information to provide oneself or others with proprietary benefits, or to damage others.",
+            "7": "Publish any information (including computer program) prohibited by the relevant laws and regulations.",
+            "8": "Impersonate any officer or administrator of the Company or Partners, or illegally use another user’s name.",
+            "9": "Other Illegal acts or any act that impedes operation of the Service.",
+            "10": "The management and responsibility of protection of the private key, log in account, log in password, private key password, and, mnemonic phrase (collectively “generated information”)  related to the Service of the WEMIX platform, PLAY WALLET, WEMIX Wallet etc. such as digital asset transfer, swap etc. is with the user and the member. It should not be used by a third party.",
+            "11": "If the user or the member’s generated information has been stolen, exposed, lost, or damaged, the Company can’t provide any help as per characteristics of decentralized service",
+            "12": "If the user or the member has lost an access to their PLAY WALLET, WEMIX Wallet or generated information and did not separately save it in the backup and lost access to all  previously accessed digital asset, the responsibility of such result is solely with the user and the member and acknowledge and agree that the Company is not responsible for it.",
+            "13": "The lost digital asset can’t be returned.",
+            "14": "Unless a user or member abides by the relevant laws and regulations, these Terms of Service and all policies of the Company, his/her use of the Service and online activities may be investigated; his/her use of the Service may be temporarily or continuously suspended."
+          }
+        },
+        "h4-2": {
+          "title": "2. Suspension on Use of Service",
+          "table": {
+            "thead": {
+              "tr1": {
+                "1": "Activity",
+                "2": "Description",
+                "3": "Level of Penalty"
+              },
+              "tr2": {
+                "1": "1st",
+                "2": "2nd",
+                "3": "3rd",
+                "4": "4th"
+              }
+            },
+            "tbody": {
+              "tr1": {
+                "1": "Contents Abuse / Use of Bug",
+                "2": "The act of seriously impacting the system and WEMIX Service operation through abusing abnormal contents and bugs in WEMIX Service",
+                "3": "Permanent Account Suspension"
+              },
+              "tr2": {
+                "1": "Inappropriate Chat",
+                "2": "Abusive language / Spamming in chat",
+                "3": "Warning",
+                "4": "3 days Account Suspension",
+                "5": "10 days Account Suspension",
+                "6": "30 days Account Suspension"
+              },
+              "tr3": {
+                "1": "Commercial advertising, dissemination of false information, leakage of personal information, antisocial or unethical contents in chat",
+                "2": "Warning",
+                "3": "3 days Account Suspension",
+                "4": "10 days Account Suspension",
+                "5": "30 days Account Suspension"
+              },
+              "tr4": {
+                "1": "Impersonating WEMIX Team and member of the Company",
+                "2": "The act of confusing other users or any such attempt through impersonation",
+                "3": "Permanent Account Suspension"
+              },
+              "tr5": {
+                "1": "Fraudulent Activity",
+                "2": "The act of deceiving other users to gain improper advantage. Any clearly identified attempt for such purposes",
+                "3": "Permanent Account Suspension"
+              },
+              "tr6": {
+                "1": "Account Theft",
+                "2": "Accounts that have traded or hold assets reported for account theft",
+                "3": "Permanent Account Suspension"
+              },
+              "tr7": {
+                "1": "False Report",
+                "2": "The act of falsely reporting account theft and fraudulent activity/defective users with false information",
+                "3": "10 days Account Suspension",
+                "4": "30 days Account Suspension",
+                "5": "Permanent Account Suspension"
+              },
+              "tr8": {
+                "1": "Naming",
+                "2": "The act of creating name/ID in WEMIX Service that includes : content that is contrary to the applicable laws and social order, abusive language and obscenity",
+                "3": "Permanent Account Suspension"
+              },
+              "tr9": {
+                "1": "Use and Dissemination of Illegal Programs",
+                "2": "The act of impacting WEMIX through use of illegal programs and software/hardware not provided by WEMIX Service. Any clearly identified dissemination of method for such act",
+                "3": "Permanent Account Suspension"
+              },
+              "tr10": {
+                "1": "Abnormal Service Access",
+                "2": "Abnormal access confirmed by monitoring and system",
+                "3": "Permanent Account Suspension"
+              },
+              "tr11": {
+                "1": "Interfering with Operation and Use of Service",
+                "2": "Any act of disregarding warnings of the Company or interfering with WEMIX Operation",
+                "3": "3 days Account Suspension",
+                "4": "10 days Account Suspension",
+                "5": "30 days Account Suspension",
+                "6": "Permanent Account Suspension"
+              },
+              "tr12": {
+                "1": "Any act not listed above, that deliberately/repetitively interferes with Service Use of other users by abusing WEMIX PLAY contents"
+              }
+            }
+          },
+          "ullist": {
+            "1": "The application of the above suspension may be adjusted at the discretion of the Company depending on the nature of each case.",
+            "2": "In the case of violations of multiple policies, the highest penalty of the violations, or the aggravation of penalties can be applied.",
+            "3": "Second or higher levels of penalty may be applied to users who are conducting uncivil behaviors in WEMIX Service or interfering with the order of the Service.",
+            "4": "IN CASES THAT ARE NOT SPECIFICALLY STATED IN THE ABOVE SUSPENSION, IF AN ACT IS DETERMINED TO CAUSE/POSSIBLY CAUSE SERIOUS ISSUES IN/OUTSIDE OF WEMIX SERVICE, THE USE OF THE SERVICE MAY BE RESTRICTED IN ACCORDANCE WITH THE COMPANY’S TERMS OF SERVICE"
+          }
+        },
+        "h4-3": {
+          "title": "3. User Responsibility",
+          "desc": "Through use of the Service, user and member are deemed to have fully agreed that they are solely responsible for the use of login and password of their account, protection of any registration data provided for account creation, and for any actions conducted during account usage. A User and member shall not share generated information such as account related to the Service, password, mnemonic phrase, and private key to anyone and shall manage and protect itby him/her self.",
+          "desc-2": "A user and member hereby agree with the following conditions related to the in-game item and digital asset.",
+          "list": {
+            "1": "The Service provided by the Company refers to the inclusive entirety of the Company provided website, wallet and such, which is accessible through PC, tablet, mobile or any electronic device. The Company is not responsible for any in-game and/or digital assets related.",
+            "2": "The responsibility of the Company is only with the service operation and management and it does not act as an intermediary of seller or buyer of in-game item and/or digital asset. The user and the member are fully and directly responsible for trade between parties and shared information.",
+            "3": "The PLAY WALLET password, WEMIX Wallet password, mnemonic phrase, and private key are not saved anywhere and those are information that Member must manage. All transactions are processed by signature by the Member. Thus, the password, mnemonic phase, and private key required for transaction signature must be managed by the Member and strengthen its security. Member is responsible for the entire management."
+          }
+        }
+      }
+    },
+    "h3-6": {
+      "title": "Article 6 Service Termination",
+      "h4-1": {
+        "title": "1. Membership Withdrawal and Personal Information Protection",
+        "desc": "If a member wishes to terminate the Service, the member may withdraw membership in accordance with procedures set by the Company through membership withdrawal function.",
+        "list": {
+          "1": "(1) Upon withdrawal, a member cannot log into WEMIX Service and use of the Service is restricted.",
+          "2": "(2) Upon withdrawal, all information related to WEMIX Service is deleted and cannot be recovered.",
+          "3": "(3) WEMIX Token balance on your PLAY WALLET must be empty. If you possess WEMIX TOKEN, KLAY in your WEMIX Wallet, withdrawal cannot be proceeded. Please transfer WEMIX TOKEN, KLAY to another wallet address.",
+          "4": "(4) Upon withdrawal, REFLECT, game token, and NFT in possession are burned and deleted on the blockchain.",
+          "5": "(5) Withdrawal cannot be proceeded if you have any open orders, including, but not limited to buy, sell and liquidation, on the exchange within PLAY WALLET. Please organize your open orders before proceeding withdrawal",
+          "6": "(6) Upon withdrawal, you cannot re-register with the same email address.",
+          "7": "(7) Upon completion of termination, a member’s information will be removed from the Service. However, due to technological characteristics of Blockchain, data related to Blockchain cannot be deleted.",
+          "8": "(8) For WEMIX Wallet that directly manages the private key, all authorities such as member registration, termination, signature are with the member and a member can terminate the Service by deleting WEMIX Wallet and private key without separate termination process."
+        }
+      }
+    },
+    "h3-7": {
+      "title": "Article 7 Copyright",
+      "h4-1": {
+        "title": "1. Property of Copyright",
+        "desc": "The copyright and the other intellectual property of the entire WEMIX Service and contents in the Service made by the Company belongs to the Company.\nThe user and the member must not use information belonging as an intellectual property of the Company or a provider acquired during service use provided the Company by replicating⋅transmitting etc. (includes editing, publishing, performing, distributing, broadcasting, writing derivative content etc.) for profit or make other use it without prior consent by the Company or the provider. The Company, with the below methods and conditions, permits the user and the member to use communication, image, sound, and all materials and information (the “User Contents”) including chat texts related to the Service or displayed in the Service uploaded or sent by the member or other user through the Service.",
+        "ullist": {
+          "1": "Using, changing in form of editing and modifying such User Contents (can be used in any kind of form such as publicating, replicating, performing, transmitting, distributing, broadcasting, writing derivative content etc. and has no restriction of use period or location)",
+          "2": "Shall not do acts such as selling, renting, and transferring User Contents for the purpose of trading without prior consent of the user who created the User Content.",
+          "3": "The Company does not use member’s User Contents which are not displayed within the Service or integrated with the Service (e.g. posts uploaded in users’ bulletin) and the User or the member can delete such User Contents anytime.",
+          "4": "The Company, with its discretion, can delete or transfer posts uploaded or submitted in the Service by the user or the member without prior notice if it is confirmed as a violation of Article 5 Obligations of Contracting Parties and may reject its application.",
+          "5": "The user or the member who’s profit has been invaded legally due to posted information in community, bulletin operated by the Company can submit a deletion of such information or refutation to the Company. The Company shall promptly act with necessary action and notify the applicant."
+        }
+      },
+      "h4-2": {
+        "title": "2. Obligation of the User and the Member",
+        "desc": "The user and the member can not replicate, transmit, distribute, use the Service or all materials included without written prior consent of the Company and can not use the Service or all materials included for the commercial purpose of an individual. Thus, the user and the member can not lease, sell below license, transfer the Service or inclusive materials. The user and the member is prohibited from deleting, hiding, or editing content, property, intellectual property or any or all rights related to the Service.\nDuring use of the service, the user and the member must not display the third party’s product or the Service such as the Company or third service provider’s name, brand, etc or have the same display with the third party’s business or generate or use similar display.\n\nThis article remains in effect during the service operation of the Company and applies constantly after end of service use or termination of the membership."
+      }
+    },
+    "h3-8": {
+      "title": "Article 8 Indemnification and Immunity",
+      "h4-1": {
+        "title": "1. Indemnification for Damage",
+        "desc": "The Company or user and the member have a responsibility to indemnify the damage if one violates the terms and does damages to the other party unless it was intentional or negligence. If the Company signed a partnership with a separate service provider and provides the separate service to the member and the user or the member agrees with the terms and conditions of this separate service and if the separate service provider does damage to the individual with intention or by negligence, the separate service provider has responsibility for the damage occurred."
+      },
+      "h4-2": {
+        "title": "2. Company’s Immunity",
+        "desc": "The Company is not responsible for not being able to provide service due to natural disaster or force majeure of such level.\nThe Company is not responsible for damages caused by other reasons such as remuneration, replacement, regular inspection, and construction of service facilities unless it was the company's intentional or negligence.\nThe Company is not responsible for the failure of using the service due to the intentional or negligence of the user or member unless the user or member has an inevitable or legitimate reason.\nThe Company is not responsible regarding the reliability and accuracy of information and data etc. published by the user or member in relation to the service unless intentional or with severe negligence.\nThe Company is not obliged to intervene in transactions or disputes caused by the user or other members or others, and is not responsible for damages.\nThe Company is not liable for damages incurred to the users or members regarding the use of the services provided. Unless, it is the company's intentional or negligence.\nThe Company is not responsible when users or members did not earn expected profit or loss while using the Service.\nThe Company is not responsible for the price fluctuations of digital assets etc. of the user and the member.\nThe Company is not responsible for issues occurring with personal information management such as PLAY WALLET ID, password, email, WEMIX Wallet password, private key, mnemonic phrase etc. due to negligence of the user or member.\nThe Company is not responsible if the function of the service cannot be used due to changes in electronic devices such as PCs and mobile devices, changes in mobile number, changes in the operating system (OS) version, changes in overseas roaming, and telecommunications company, unless it is the company's intentional or negligence.\nThe Company is not responsible if the user or the member deleted the account information provided by the Company, unless it is the company's intentional or negligence.\nThe Company is not responsible for the loss occurred during the service use by a guest who is not a member, unless it is the company's intentional or negligence."
+      }
+    },
+    "h3-9": {
+      "title": "Article 9 Others",
+      "h4-1": {
+        "title": "1. Governing Law and Jurisdiction",
+        "desc": "These Terms of Service shall be governed by Singapore law and shall be interpreted, governed and construed accordingly. User and member consent to designate the courts of Singapore as the competent court for any disputes or lawsuits arising in relation to these Terms of Service or Privacy Policy."
+      },
+      "h4-2": {
+        "title": "2. Language",
+        "ullist": {
+          "1": "User and member agree that even in the event that the translated version of the English Terms of Service is provided, the translated version is provided only for convenience of the user and member, and solely the English Terms of Service shall apply to the relation between the user and the Company.",
+          "2": "In the event of discrepancies between the English Terms of Service and any translated version of the Terms of Service, the English Terms of Service shall be prioritized."
+        }
+      },
+      "h4-3": {
+        "title": "3. Possibility of Separation",
+        "desc": "If any part of these terms of service is found illegal, invalid, or unprecedented in relevant local laws or jurisdictions of related courts, the relevant provisions are abolished and the remaining terms and conditions are continuously valid."
+      }
+    },
+    "datelist": {
+      "notifi": "Notification Date : October 13th, 2022",
+      "execu": "Execution Date : October 20th, 2022"
+    }
+  }
+}

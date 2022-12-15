@@ -1,0 +1,28 @@
+[
+  {
+    "id": 0,
+    "title": "DAO",
+    "url": "/dao"
+  },
+  {
+    "id": 1,
+    "title": "Life",
+    "url": "/life"
+  },
+  {
+    "id": 2,
+    "title": "Marketplace",
+    "url": "/marketplace"
+  },
+  {
+    "id": 3,
+    "title": "Community",
+    "url": "/community"
+  },
+  {
+    "id": 4,
+    "title": "Tokens",
+    "url": "/tokens",
+    "status": "disabled"
+  }
+]

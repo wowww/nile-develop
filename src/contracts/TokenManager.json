@@ -1,0 +1,992 @@
+{
+  "address": "0x22ed818f25083c51FbD6E94C0219F78dA6B85970",
+  "abi": [
+    {
+      "name": "BlockingCriteriaChanged",
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "blockingCriteria",
+          "type": "uint256"
+        }
+      ]
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "reported",
+          "type": "uint256"
+        }
+      ],
+      "name": "CollectionBlocked",
+      "type": "event"
+    },
+    {
+      "name": "CollectionModified",
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "type": "address",
+          "indexed": true,
+          "internalType": "address",
+          "name": "addr"
+        },
+        {
+          "name": "genesisType",
+          "type": "uint8",
+          "indexed": false,
+          "internalType": "enum Type.GenesisType"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "genesis",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Type.GenesisType",
+          "name": "genesisType",
+          "type": "uint8"
+        },
+        {
+          "type": "address",
+          "indexed": false,
+          "internalType": "address",
+          "name": "genesis"
+        }
+      ],
+      "name": "CollectionRegistered"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "type": "address",
+          "indexed": true,
+          "internalType": "address",
+          "name": "genesis"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "generation",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256[]",
+          "name": "genesisTid",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "generationTid",
+          "type": "uint256[]",
+          "indexed": false
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "offset",
+          "type": "uint256"
+        }
+      ],
+      "name": "GenesisGenerationSet",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "version",
+          "type": "uint8"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "onOff",
+          "type": "bool",
+          "indexed": true
+        }
+      ],
+      "name": "OnlyWhiteListTurned",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address",
+          "indexed": true
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "reporter",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "reported",
+          "type": "uint256"
+        }
+      ],
+      "name": "Reported",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "type": "bytes32",
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "role"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "previousAdminRole",
+          "type": "bytes32",
+          "indexed": true
+        },
+        {
+          "name": "newAdminRole",
+          "type": "bytes32",
+          "indexed": true,
+          "internalType": "bytes32"
+        }
+      ],
+      "name": "RoleAdminChanged",
+      "type": "event"
+    },
+    {
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "type": "bytes32",
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "role"
+        },
+        {
+          "name": "account",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "sender",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "name": "RoleGranted"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        }
+      ],
+      "name": "RoleRevoked",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "changer",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "TokenClosed",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "changer",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256"
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "name": "TokenOpened",
+      "type": "event"
+    },
+    {
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        }
+      ],
+      "name": "WhiteListSet"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address",
+          "indexed": true
+        }
+      ],
+      "name": "WhiteListUnset",
+      "type": "event"
+    },
+    {
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [],
+      "name": "DEFAULT_ADMIN_ROLE"
+    },
+    {
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "blockCollection"
+    },
+    {
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "name": "collection",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "closeAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "changeTokenStatus"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        },
+        {
+          "type": "address",
+          "internalType": "address",
+          "name": "closer"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256"
+        }
+      ],
+      "name": "getClosedTokenAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        }
+      ],
+      "name": "getCollectionInfo",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "name": "owner",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "genesis",
+              "type": "address"
+            },
+            {
+              "internalType": "address[]",
+              "name": "fRecipient",
+              "type": "address[]"
+            },
+            {
+              "internalType": "address[]",
+              "name": "sRecipient",
+              "type": "address[]"
+            },
+            {
+              "type": "uint256[]",
+              "internalType": "uint256[]",
+              "name": "fRate"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "sRate",
+              "type": "uint256[]"
+            },
+            {
+              "name": "genesisHolderFee",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "type": "uint256",
+              "internalType": "uint256",
+              "name": "platformFee"
+            },
+            {
+              "internalType": "uint256",
+              "name": "featuredFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "enum Type.GenesisType",
+              "name": "genesisType",
+              "type": "uint8"
+            }
+          ],
+          "internalType": "struct Type.Collection",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [],
+      "name": "getCollectionList",
+      "outputs": [
+        {
+          "type": "address[]",
+          "internalType": "address[]",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "generation",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256"
+        }
+      ],
+      "name": "getGenesis"
+    },
+    {
+      "type": "function",
+      "inputs": [],
+      "name": "getReported",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "name": "getReportedCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "name": "collection",
+          "type": "address",
+          "internalType": "address"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "name": "role",
+          "type": "bytes32",
+          "internalType": "bytes32"
+        }
+      ],
+      "name": "getRoleAdmin",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "grantRole",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "hasRole",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        }
+      ],
+      "name": "init"
+    },
+    {
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "name": "collection",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "name": "isGeneration"
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        }
+      ],
+      "name": "isRegisteredCollection",
+      "outputs": [
+        {
+          "type": "bool",
+          "internalType": "bool",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        }
+      ],
+      "name": "isWhiteList",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "type": "address",
+              "internalType": "address",
+              "name": "addr"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "genesis",
+              "type": "address"
+            },
+            {
+              "internalType": "address[]",
+              "name": "fRecipient",
+              "type": "address[]"
+            },
+            {
+              "name": "sRecipient",
+              "type": "address[]",
+              "internalType": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "fRate",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "sRate",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256",
+              "name": "genesisHolderFee",
+              "type": "uint256"
+            },
+            {
+              "name": "platformFee",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "featuredFee",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "internalType": "enum Type.GenesisType",
+              "name": "genesisType",
+              "type": "uint8"
+            }
+          ],
+          "internalType": "struct Type.Collection",
+          "name": "collection",
+          "type": "tuple"
+        }
+      ],
+      "name": "modifyCollection",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "name": "collection",
+          "type": "tuple",
+          "components": [
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "genesis",
+              "type": "address"
+            },
+            {
+              "internalType": "address[]",
+              "name": "fRecipient",
+              "type": "address[]"
+            },
+            {
+              "internalType": "address[]",
+              "name": "sRecipient",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "fRate",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "sRate",
+              "type": "uint256[]"
+            },
+            {
+              "name": "genesisHolderFee",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "platformFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "featuredFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "enum Type.GenesisType",
+              "name": "genesisType",
+              "type": "uint8"
+            }
+          ],
+          "internalType": "struct Type.Collection"
+        }
+      ],
+      "name": "registerCollection",
+      "outputs": []
+    },
+    {
+      "name": "renounceRole",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "type": "address",
+          "internalType": "address",
+          "name": "account"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "collection",
+          "type": "address"
+        }
+      ],
+      "name": "report",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "role",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "revokeRole",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "genesis",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "generation",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "genesisTid",
+          "type": "uint256[]"
+        },
+        {
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "name": "generationTid"
+        },
+        {
+          "internalType": "uint256",
+          "name": "offset",
+          "type": "uint256"
+        }
+      ],
+      "name": "setGenesisGeneration",
+      "outputs": []
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "name": "collection",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "name": "setWhiteList",
+      "outputs": []
+    },
+    {
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "type": "bool",
+          "internalType": "bool",
+          "name": "onOff"
+        }
+      ],
+      "name": "turnOnlyWhiteList",
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "unsetWhiteList",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "name": "collection",
+          "type": "address",
+          "internalType": "address"
+        }
+      ]
+    }
+  ]
+}

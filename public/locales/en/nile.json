@@ -1,0 +1,139 @@
+{
+  "home": {
+    "banner": {
+      "item": {
+        "0": {
+          "title": "Total Market Cap",
+          "caption": "각 DAO별 DT와 GT를 합산한 값입니다."
+        },
+        "1": {
+          "title": "Total Accumulated NFT Transaction Value"
+        },
+        "2": {
+          "title": "Total Transactions"
+        },
+        "3": {
+          "title": "Total Members"
+        }
+      },
+      "text1": "Total Market Cap",
+      "text2": "Total NFT Trading Volume",
+      "text3": "Total Transaction Count",
+      "text4": "Total Members"
+    },
+    "story": {
+      "title": "Story3.0",
+      "notice": "We provide Web3 articles  written by experts in various fields from their point of view. \n Check out distinct expert insights on the blockchain economy, including NFT and DAO projects, tokenomics, technology, trends and more.",
+      "next": "The next Story3.0 article is coming soon.",
+      "unit": "Recommended Article",
+      "unit2": "Recommended Topics",
+      "item": {
+        "0": {
+          "tag": "Web3",
+          "title": "Web3 시대의 새로운 문화 Walk to Earn을 소개합니다.",
+          "desc": "2021년 Crypto 시장을 뜨겁게 달군 키워드는 'Play to Earn(P2E)' 이었습니다. 말 그대로 '놀면서 돈을 번다'라는 의미로 주로 게임과 접목하여 게임을 할 수록 보상 코인이 지급되는 서비스들을 일컫었습니다. ‘ Walk to Earn’은 말 그대로 '걸을수록 돈을 번다'라는 의미로, 참여자들은 걸으면서 이에 해당하는 수익을 보상으로 받고, 서비스 제공자는 유저들을 대상으로 광고 또는 데이터를 수집하여 판매",
+          "date": "2022-10-20"
+        },
+        "1": {
+          "tag": "Walk to Earn",
+          "title": "Web3 시대의 새로운 문화 Walk to Earn을 소개합니다Web3 시대의 새로운 문화 Walk to Earn을 소개합니다Web3 시대의 새로운 문화 Walk to Earn을 소개합니다Web3 시대의 새로운 문화 Walk to Earn을 소개합니다.",
+          "desc": "2021년 Crypto 시장을 뜨겁게 달군 키워드는 'Play to Earn(P2E)' 이었습니다. 말 그대로 '놀면서 돈을 번다'라는 의미로 주로 게임과 접목하여 게임을 할 수록 보상 코인이 지급되는 서비스들을 일컫었습니다. ‘ Walk to Earn’은 말 그대로 '걸을수록 돈을 번다'라는 의미로, 참여자들은 걸으면서 이에 해참여자들은 걸으면서 이에 해참여자들은 걸으면서 이에 해참여자들은 걸으면서 이에 해참여자들은 걸으면서 이에 해참여자들은 걸으면서 이에 해",
+          "date": "2022-10-20"
+        },
+        "2": {
+          "tag": "Web3",
+          "title": "The Cradle of the New Civilization that Will Be Built on Web3, NILE",
+          "desc": "Herodotus, the Greek historian referred to as the 'Father of History,' said, “Egypt is the gift of the Nile.“ Water is the fluid of life and the birthplace of all civilizations. Looking at the four ancient civilizations of the world, water has been an inseparable part of humanity and agriculture. The flooding of the Nile has been an important natural cycle of ancient Egypt's technological and social structural development. ＜The Development of Science and Technology; the Core of Civilization＞ To predict and prepare for floods, the sciences and technologies of astronomy, geometry, civil engineering, and metrology have evolved dramatically. Philological and archival techniques have also progressed to record academic advancement. These were core elements that flourished the Egyptian civilization. ＜Cultural Development Prompted by Enriching Lifestyle＞ The flooding of the Nile brought soil fertility to dry regions. Abundant resources accelerated the growth of various cultural sectors like art and religion, which have also played crucial roles in Egyptian civilization. NILE, which stands for NFT Is Life Evolution, is the platform that will unfold the new civilization of Web3. Inspired by the inextricable value that the Nile river holds to the growth of ancient Egypt, NILE aims to become a platform that presents the beginning of a new civilization beyond the evolution of life, based on Web3. ＜Exclusive and Advanced Technology of WEMIX＞ As Egypt's science and technology advanced from flooding the Nile, WEMIX’s blockchain technology is an unparalleled industry pioneer, just like how the flooding of the Nile advanced Egypt's science and technology. The global sensation of MIR4, the world's most successful P&E game, led to the creation of the WEMIX3.0 mega-ecosystem. NILE will provide technical support to various projects from DAO, NFT, and DApp through WEMIX3.0. ＜Evolution of Lifestyle from Endless Resources＞ The leading mega-ecosystem of WEMIX3.0 and prolific capital of WEMIX$ will endorse various NILE projects to thrive. The Neith Protocol, the unique mechanism designed by NILE, will support projects in many industries, such as art, sports, music, finance, and real estate, with the collective goals of DAO. In the deluge of blockchain technology in the Web3 era, NILE fulfills the vision of creating a world where blockchain transforms and digitalizes daily operations to improve both transparency and security. Built for everyday joy and activities, a DApp can host a Picasso exhibition in real life with rewards collected through DAO, generating innovative on- and off-chain connections. WEMIX presents NILE, envisioned to become a revolutionary game-changer in the Web3 world. Now it's your turn to experience new cultures and ecosystems on disruptive blockchain innovations that you have never before seen in the Web 2 era through the story in which NILE will unfold throughout the Web3 era.",
+          "date": "2022-11-11",
+          "detail": {
+            "post": {
+              "p1": "Herodotus, the Greek historian referred to as the 'Father of History,' said, “Egypt is the gift of the Nile.“",
+              "p2": "Water is the fluid of life and the birthplace of all civilizations. Looking at the four ancient civilizations of the world, water has been an inseparable part of humanity and agriculture. The flooding of the Nile has been an important natural cycle of ancient Egypt's technological and social structural development.",
+              "strong1": "＜The Development of Science and Technology; the Core of Civilization＞",
+              "p3": "To predict and prepare for floods, the sciences and technologies of astronomy, geometry, civil engineering, and metrology have evolved dramatically. Philological and archival techniques have also progressed to record academic advancement. These were core elements that flourished the Egyptian civilization. ",
+              "strong2": "＜Cultural Development Prompted by Enriching Lifestyle＞",
+              "p4": "The flooding of the Nile brought soil fertility to dry regions. Abundant resources accelerated the growth of various cultural sectors like art and religion, which have also played crucial roles in Egyptian civilization.",
+              "p5": "NILE, which stands for NFT Is Life Evolution, is the platform that will unfold the new civilization of Web3. ",
+              "p6": "Inspired by the inextricable value that the Nile river holds to the growth of ancient Egypt, NILE aims to become a platform that presents the beginning of a new civilization beyond the evolution of life, based on Web3.",
+              "strong3": "＜Exclusive and Advanced Technology of WEMIX＞",
+              "p7": "As Egypt's science and technology advanced from flooding the Nile, WEMIX’s blockchain technology is an unparalleled industry pioneer, just like how the flooding of the Nile advanced Egypt's science and technology. The global sensation of MIR4, the world's most successful P&E game, led to the creation of the WEMIX3.0 mega-ecosystem. NILE will provide technical support to various projects from DAO, NFT, and DApp through WEMIX3.0.",
+              "strong4": "＜Evolution of Lifestyle from Endless Resources＞",
+              "p8": "The leading mega-ecosystem of WEMIX3.0 and prolific capital of WEMIX$ will endorse various NILE projects to thrive. The Neith Protocol, the unique mechanism designed by NILE, will support projects in many industries, such as art, sports, music, finance, and real estate, with the collective goals of DAO.",
+              "p9": "In the deluge of blockchain technology in the Web3 era, NILE fulfills the vision of creating a world where blockchain transforms and digitalizes daily operations to improve both transparency and security. Built for everyday joy and activities, a DApp can host a Picasso exhibition in real life with rewards collected through DAO, generating innovative on- and off-chain connections.",
+              "p10": "WEMIX presents NILE, envisioned to become a revolutionary game-changer in the Web3 world. Now it's your turn to experience new cultures and ecosystems on disruptive blockchain innovations that you have never before seen in the Web 2 era through the story in which NILE will unfold throughout the Web3 era. "
+            },
+            "infoItem": {
+              "title": " 위메이드가 전하는 글로벌 블록체인 사업과 토큰 경제학 위메이드가 전하는 글로벌 블록체인 사업과 전하는 글로벌 블록체인 사업과 전하는글로벌 블록체인 사업과",
+              "cont": " 2022년 위메이드는 블록체인 사업 전반과 토크노믹스 기반 경제에 대한 사업적 비전, 위믹스 코인을 소개했다. 위메이드는 중동에 지점을오픈하고 글로벌 블록체인 사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰 성 블록체인 기술 등에 대한 큰 성 블록체인 기술 등에 대한 큰 성",
+              "url": "www.wemade.com"
+            },
+            "beforeItem": {
+              "iconText": "Previous Article",
+              "title": "블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성 블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성 블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성 블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성",
+              "cont": "2022년 위메이드는 블록체인 사업 전반과 토크노믹스 기반 경제에 대한 사업적 비전, 위믹스 코인을 소개했다. 위메이드는 중동에 지점을 오픈하고 글로벌 블록체인 사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰   사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰  사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰 "
+            },
+            "afterItem": {
+              "iconText": "Next Article",
+              "title": "블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성 블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성 블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성 블록체인 프로젝트로 보는 위믹스 3.0 생태계의 다양성",
+              "cont": "2022년 위메이드는 블록체인 사업 전반과 토크노믹스 기반 경제에 대한 사업적 비전, 위믹스 코인을 소개했다. 위메이드는 중동에 지점을 오픈하고 글로벌 블록체인 사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰   사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰  사업을 확장하고 있다.중동은 디지털 자산, 블록체인 기술 등에 대한 큰 "
+            }
+          }
+        }
+      }
+    },
+    "choice": {
+      "title": "Our Choice",
+      "listCommon": {
+        "price": "Starting Bid",
+        "unit": "WEMIX$"
+      },
+      "item": {
+        "0": {
+          "tag": "NFT",
+          "title": "LUS Collection 264: The first Collectible Art Auction carefully selected by NILE",
+          "desc": "More widely known as the London Tube, the London Underground is a method of transportation for many Londoners and tourists, as well as a tunnel that connects them to nostalgic places. ",
+          "button1": "View Project Details",
+          "button2": "Go Marketplace",
+          "list": {
+            "0": {
+              "title": "Alperton"
+            },
+            "1": {
+              "title": "St Paul's "
+            }
+          }
+        },
+        "1": {
+          "tag": "Life",
+          "title": "The Beginning of a New Talk to Earn Life in the Web3 Ecosystem, Tangled",
+          "desc": "Tangled is a Web3 social app based on live video-chatting. Users can find new users and have conversations with the random live chat feature, and claim Time points as rewards for the conversations. Time points claimed from the app are saved in each user's watch.",
+          "button1": "Look Project",
+          "button2": "Go to Marketplace"
+        },
+        "2": {
+          "tag": "DAO",
+          "title": "Invitation to WONDER DAO",
+          "desc": "You can participate in one of the 40 decision-making bodies that consist of Node Council Partners for WEMIX3.0 operations. Participating in WONDER DAO is the same as participating in important decision-making processes for operations of the WEMIX ecosystem.",
+          "button1": "Go DAO"
+        }
+      }
+    },
+    "lastestNews": {
+      "title": "Lastest News",
+      "item": {
+        "0": {
+          "title": "Wemade’s partner Metascale unveils BI for XR Messenger service Bagel",
+          "desc": "Metascale, a partner of Wemade, unveiled the XR messenger service Bagel and its brand identity (BI)."
+        },
+        "1": {
+          "title": "The First IMO of REFLECT(RFT) Alliance, LUX Completed",
+          "desc": "As previously announced, The first REFLECT Alliance IMO(Initial Membership Offering) has taken place through the injection of LUX tokens"
+        }
+      },
+      "additionItem": {
+        "title": "커밍순 타이틀",
+        "desc": "설명문구"
+      }
+    }
+  }
+}

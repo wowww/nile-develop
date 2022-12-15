@@ -1,0 +1,76 @@
+{
+  "a11y": {
+    "settingProfile": "Settings Profile",
+    "gotoSetting": "Go to Settings",
+    "copyWallerAdd": "Copy Wallet Address"
+  },
+  "tooltip": {
+    "totalAsset": "영문 수급 필요",
+    "includedDAO": "영문 수급 필요",
+    "nftPrice": "영문 수급 필요"
+  },
+  "toast": {
+    "walletCopy": "영문 수급 필요"
+  },
+  "filters": "Filters",
+  "empty": {
+    "ownedNft": "You do not have any NFTs in your balance.\nCheck our various NFTs in the Marketplace!",
+    "nft": "No collection NFTs.\nCheck our various NFTs in the Marketplace!",
+    "favorites": "No NFTs you've 'liked'.\nCheck our various NFTs in the Marketplace!",
+    "activity": "There is no activity history.",
+    "results": "No results match your search criteria.",
+    "searchDefault": "There are no search results.",
+    "search": "There are no search results for"
+  },
+  "statusFilter": {
+    "upcoming": "Upcoming",
+    "closed": "Closed",
+    "makePriceOffer": "Make Price Offer",
+    "onAuction": "On Auction",
+    "buyNow": "Buy Now",
+    "notForSale": "Not for Sale"
+  },
+  "NFTAlbum": "NFT Album",
+  "album": {
+    "title": "NFT 컬렉션 수집 현황",
+    "subTitle": "전체 컬렉션 중 내가 소유한 NFT 개수를 확인할 수 있어요."
+  },
+  "search": "Look up NFT name.",
+  "table": "환불받기",
+  "profileSetting": {
+    "title": "Profile Settings",
+    "desc": "You can set your NFT as your profile picture.",
+    "userName": "Username",
+    "userNamePlaceholder": "Please enter a Username.",
+    "userNameValidCorrect": "사용 가능한 이름 입니다.",
+    "userNameValidNotAllowed": "공백 및 특수문자 입력이 불가합니다.",
+    "userNameValidCount": "한글 2-4글자, 영문 4-16글자 사이로 입력해 주세요.",
+    "userNameValidAlreadyUse": "이미 사용중인 이름 입니다.",
+    "about": "About",
+    "aboutPlaceholder": "Please enter data in the About field.",
+    "social": "Connect Social Media Account",
+    "socialDesc": "Connect your social media account to verify your account.",
+    "socialButton": "Connect",
+    "disconnectSocial": "Disconnect Social Media Account",
+    "link": "Link",
+    "linkPlaceholder": "Enter website URL.",
+    "asset": "Asset Public Information Range",
+    "public": "Public",
+    "onlyMe": "Only Me",
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirmCancel": "Confirm Cancel Enter",
+    "confirmCancelDesc": "Cancel entering profile?\nIf you cancel, the changes will not be saved.",
+    "close": "Close",
+    "yesClose": "Yes, I will cancel."
+  },
+  "pfp": {
+    "title": "Choose profile picture",
+    "default": "Set default profile",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "empty1": "You do not have any NFTs in your balance. \nCheck our various NFTs in the Marketplace!",
+    "empty2": "Go to Marketplace",
+    "profile": "profile"
+  }
+}

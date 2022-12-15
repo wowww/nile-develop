@@ -1,0 +1,445 @@
+{
+  "address": "0xe7f59efec633a1470c513cad06606bdb6d43797c",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_feeManagerAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "_orderContract",
+          "type": "address"
+        },
+        {
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_orderIndex"
+        },
+        {
+          "name": "_recipient",
+          "type": "address[]",
+          "indexed": false,
+          "internalType": "address[]"
+        },
+        {
+          "type": "uint256[]",
+          "indexed": false,
+          "internalType": "uint256[]",
+          "name": "_price"
+        }
+      ],
+      "name": "DistributionEvent",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address",
+          "indexed": true
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event",
+      "anonymous": false
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "_collection",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Type.Round",
+          "name": "_round",
+          "type": "uint8"
+        },
+        {
+          "components": [
+            {
+              "internalType": "address[]",
+              "name": "recipient",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "rate",
+              "type": "uint256[]"
+            }
+          ],
+          "indexed": false,
+          "internalType": "struct Type.FeeSet",
+          "name": "_feeSet",
+          "type": "tuple"
+        }
+      ],
+      "name": "RecipientSetted",
+      "type": "event"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "addEditor",
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_orderIndex",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_collection",
+          "type": "address"
+        },
+        {
+          "name": "tid",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "internalType": "enum Type.Round",
+          "name": "_round",
+          "type": "uint8"
+        },
+        {
+          "type": "uint256",
+          "internalType": "uint256",
+          "name": "price"
+        }
+      ],
+      "name": "distributionEventEmit",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ]
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "type": "address",
+          "internalType": "address",
+          "name": "_collection"
+        }
+      ],
+      "name": "getFeaturedFee",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ]
+    },
+    {
+      "name": "getFeeManagerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": []
+    },
+    {
+      "inputs": [],
+      "name": "getMaxFee",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_collection",
+          "type": "address"
+        }
+      ],
+      "name": "getPlatformFee",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_collection",
+          "type": "address"
+        },
+        {
+          "internalType": "enum Type.Round",
+          "name": "_round",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256"
+        }
+      ],
+      "name": "getRecipient",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "address[]",
+              "name": "recipient",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "rate",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct Type.FeeSet",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTokenManagerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isEditor",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "removeEditor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_fee",
+          "type": "uint256"
+        }
+      ],
+      "name": "setMaxFee",
+      "outputs": []
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "genesis",
+              "type": "address"
+            },
+            {
+              "type": "address[]",
+              "internalType": "address[]",
+              "name": "fRecipient"
+            },
+            {
+              "type": "address[]",
+              "internalType": "address[]",
+              "name": "sRecipient"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "fRate",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "sRate",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "uint256",
+              "name": "genesisHolderFee",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "platformFee",
+              "type": "uint256"
+            },
+            {
+              "name": "featuredFee",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "genesisType",
+              "type": "uint8",
+              "internalType": "enum Type.GenesisType"
+            }
+          ],
+          "internalType": "struct Type.Collection",
+          "name": "_collection",
+          "type": "tuple"
+        }
+      ],
+      "name": "setRecipient",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newAddress",
+          "type": "address"
+        }
+      ],
+      "name": "setTokenManagerAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}

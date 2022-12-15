@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "link": "https://medium.com/@remoteupskill/fetching-data-in-next-js-df880bd3afa5",
+    "imgPath": "/public/temp/@temp_bagel_news.png",
+    "title": "home.lastestNews.item.0.title",
+    "content": "home.lastestNews.item.0.desc",
+    "publishedDate": "2022-10-20"
+  },
+  {
+    "id": 2,
+    "link": "https://medium.com/@remoteupskill/fetching-data-in-next-js-df880bd3afa5",
+    "imgPath": "/public/temp/@temp_rft_news.png",
+    "title": "home.lastestNews.item.1.title",
+    "content": "home.lastestNews.item.1.desc",
+    "publishedDate": "2022-10-20"
+  }
+]

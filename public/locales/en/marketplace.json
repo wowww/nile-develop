@@ -1,0 +1,39 @@
+{
+  "collection": "Collection",
+  "nft": "NFT",
+  "onSale": "ON SALE",
+  "hero": {
+    "nile": {
+      "desc": "Dive into the vision of NILE with NFT art pieces."
+    },
+    "lus": {
+      "desc": "Check out 264 pieces that connect viewers to nostalgic places in England."
+    },
+    "tangled": {
+      "desc": "Tangled is a web3 live community app where users can directly form new communities and communicate with one another."
+    }
+  },
+  "ranking": {
+    "title": "Ranking",
+    "tabBtn": "Frequent Transactions",
+    "tabBtn2": "Highest last sale",
+    "notice": "Settled in order of the biggest number of transactions that occurred in a given period",
+    "notice2": "Settled in order of the most expensive latest sale price",
+    "unit": "Ranking",
+    "unit2": "NFT",
+    "unit3": "Transactions a"
+  },
+  "bottom": {
+    "title": "NFT is for Everyone",
+    "notice": "There are various categories of NFTs in the NILE Marketplace.\n Send us an enquiry if you want to work with NILE."
+  },
+  "listing": {
+    "txt": "When this piece is sold for the price above, you will be getting this much as profits for this sale, excluding the fees shown below.",
+    "txt2": ""
+  },
+  "detail": {
+    "auction": " If there are no additional bids, the auction will end at 2022.03.02 17:00 KST."
+  },
+  "buyMysteryBox": "Buy Mystery Box",
+  "snkrzInfo": "The SNKRZ Details page will be available from November 17th."
+}

@@ -1,0 +1,222 @@
+{
+  "home": {
+    "snkrz": {
+      "banner": {
+        "desc": "Run with my NFT in the metaverse. \nSNKRZ is a blockchain-based social activity reward platform. Wear SNKRZ unique to you and receive rewards whenever you walk or run."
+      }
+    },
+    "nft": {
+      "button": "Go to Project",
+      "item": {
+        "0": {
+          "desc": "London Underground Station 264 Genesis (LUS 264) is a collection of NFTs created with intricate pixels. The auction goes live with different starting prices according to the number of passengers at the station. People NFT will be airdropped to the LUS 264 holders.",
+          "text1": "Total Transaction Amount",
+          "text2": "Total Transactions",
+          "text3": "Floor Price"
+        },
+        "1": {
+          "desc": "Tangled is a Web3 live community app based on video chats. \n The Tangled Timepiece is NFT for the Tangled community, with access permitted only for the extraordinary. Grab the chance the be a Luxury Holder before anyone else and try your luck at combining to get a higher grade.",
+          "text1": "TIPO Market Cap",
+          "text2": "TIPO Price",
+          "text3": "App Downloads"
+        },
+        "2": {
+          "desc": "‘Sights of NILE' is a project where illustrations in 'Story3.0' articles are sold as NFT. \nIf you want to know more about the views of various experts and Creators on NILE and Web3, make a bid in an auction now",
+          "text1": "Total Transaction Amount",
+          "text2": "Total Transactions",
+          "text3": "Floor Price"
+        },
+        "3": {
+          "desc": "SNKRZ is a Walk To Earn platform where you can enjoy exercise, health, and rewards. You can generate profits while walking and running the best you can, as well as enjoy the various motivators to burn lots of calories with my exercise information including GPS and acceleration sensor. Achieve your goals with SNKRZ and enjoy running even more.",
+          "text1": "Total Transaction Amount",
+          "text2": "Total Transactions",
+          "text3": "Floor Price",
+          "text4": "App Downloads",
+          "unfoldingSoon": "Details about SNKRZ will be available from November 17th."
+        }
+      },
+      "text": "Stay tuned for the next project that will change your Life."
+    },
+    "apply": {
+      "desc": "We welcome project enquiries to change Life with NILE."
+    }
+  },
+  "lus": {
+    "main": {
+      "title": "LONDON\nUNDERGROUND\nSTATION 264 GENESIS"
+    },
+    "overview": {
+      "desc": "London Underground Station (LUS) 264 Genesis is\nthe impression of the 264 stations of London in tiny pixel art form.",
+      "text1": "More widely known as the London Tube, the London Underground is a method of transportation for many Londoners\nand tourists, as well as a tunnel that connects them to nostalgic places.",
+      "text2": "The impression of stations of varying heights and widths in a 320px square, this long-term project began in 2013\n with King's Cross station and ended with Paddington station in 2017 after about 5 years.\nLUS consists of Genesis, the 264 first Art works, and Generation, which are 2112 reconstituted works of Genesis in 8 different themes.",
+      "text3": "The auction for LUS 264 will go live with different starting prices according to the number of passengers at the station. People NFT will be airdropped to the LUS 264 holders. More details are to come on November 17th on this page."
+    },
+    "artist": {
+      "desc1": "Zeeha is an illustrator and pixel artist, and Locho is a typographer and pixel artist. \nZeeha and Locho make up the design team 'PICDOT', which began in London in 2009.",
+      "desc2": "Active in London and Seoul, the two artists have worked on various pixel projects such as 'Pixel World 2009', 'Pixel World 2019', 'LUS 264',\n'PEOPLE', 'VIKLS', 'Ash19HX', and their current focus is on creating a 'pixel metaverse' in which all of these projects are connected in one world."
+    }
+  },
+  "tangled": {
+    "main": {
+      "text": "Tangled"
+    },
+    "nft": {
+      "desc": "The Tangled Timepiece is NFT for the Tangled community, with access permitted only for the extraordinary. Grab the chance the be a Luxury Holder before anyone else and try your luck at combining to get a higher grade. Only the chosen 1% will succeed in combining and having a limited-edition, a top tier NFT.",
+      "luxury": {
+        "title": "Luxury",
+        "text1": "Consisting 74% of all NFTs.",
+        "text2": "Be a Tangled Timepiece Holder right now."
+      },
+      "highEnd": {
+        "title": "High-end",
+        "text1": "A higher grade that can only be combined, \nthis grade is limited to 25% of all NFTs.",
+        "text2": "A successful combine of 2 Luxury Timepieces is necessary to obtain this."
+      },
+      "zenith": {
+        "title": "Zenith",
+        "text1": "A top tier NFT,\nonly permitted for the 1%.",
+        "text2": "Only the best of the best who have succeeded in combining a high-end timepiece can be Holders."
+      }
+    },
+    "overview": {
+      "title": "Tangled is a web3 live community app where users can directly form new communities and communicate with one another.",
+      "community": {
+        "title": "WEB3 Live Chat",
+        "desc": "Users can discover and chat with new users through random live chat, and earn Time points as rewards for conversation."
+      },
+      "community2": {
+        "title": "NFT",
+        "desc": "This NFT Watch takes the Time you get from the Tangled app. It’s very important to maintain. You can also get a high-grade watch by mating."
+      },
+      "community3": {
+        "title": "TIPO",
+        "desc": "Time points stored on the watch can be converted into TIPO, a crypto token, and can be used by various consumers in the app."
+      },
+      "theTeam": {
+        "title": "The Team",
+        "1": {
+          "name": "Jin Park",
+          "rank": "CEO & Co-Founder",
+          "desc": "Developer, entrepreneur and investor. Over 25 years of experience in the internet and gaming industry. Co-Founded an internet service company that successfully IPO-ed in the 00s, later in his career he also Co-Founded another gaming company in South Korea."
+        },
+        "2": {
+          "name": "JS Shin",
+          "rank": "EVP & Co-Founder",
+          "desc": "Entrepreneur and investor. More than 15 years of experience in the internet and gaming industry. Experience in various game publishing projects in major gaming companies. Co-Founded a gaming company in the past."
+        },
+        "3": {
+          "name": "Hyo Park",
+          "rank": "COO & Co-Founder",
+          "desc": "Business opportunity explorer. Professional in international business development. Especially dedicated to the global game business. Experience in leading significant success of viral content business in LATAM."
+        },
+        "4": {
+          "name": "Edward Lee",
+          "rank": "CTO",
+          "desc": "Developer and entrepreneur. Experience in development as a professional server programmer at a global mobile media & entertainment company. Decades in software engineering with expertise in handling massive server traffic."
+        },
+        "5": {
+          "name": "Moo Min",
+          "rank": "CEO & Co-Founder",
+          "desc": "Skillful designer in UX and UI. Has an overwhelming portfolio of character artworks. Has been a founding member of one of the biggest content platforms globally."
+        },
+        "6": {
+          "name": "Paul Cho",
+          "rank": "Business Strategy Director",
+          "desc": "Strategy specialist. Educated in Liberal Arts, Political Science and Law. Experience in Public Policy at the National Assembly of the Republic of Korea."
+        }
+      }
+    }
+  },
+  "nile": {
+    "nft": {
+      "button": "Related articles",
+      "alarm": "Your notification request has been registered.",
+      "piece": {
+        "title": "NEW WORLD",
+        "info": "2022. 1920×1920 MP4 with sound",
+        "desc": "Like how the Nile river floodings flourished the Egyptian civilization, NILE will be the origin of the evolution of life in the third-generation internet. Inspired by the values of NILE, New World visualizes the new civilization of Web3. The artwork embraces the joy, birth of unique culture, and emotions that would greet the new era."
+      },
+      "creator": {
+        "desc": "Rokkan Kim (Jong Hyuk Kim) is a media artist who has been creating artworks that reinterpret the social scenes that we live in and American culture from the 1960s to the 70s.\nKim came across New Hollywood films when he was young and started to explore social phenomena like politics, ideology, design, fashion, and architecture from the movies. This marks the creation of the world of JFK-JHK—the initials of John F. Kennedy and Kim. Kim’s work covers numerous topics and industries that have inspired him since childhood. The “Space Oddity” series present spatial experience and ambivalent lives of astronauts, who were Kim’s childhood idols. The “Sea the Wall” collection alarms viewers about the earth’s climate change caused by environmental destruction. “May Be In My Past Life” looks into the supposed perspective of John F. Kennedy on the present, society, and politics. “The Occurrence of Thought” is the collection inspired by the design philosophy and architecture from the 1960s to now, with the stories from Kim’s grandfather, a veteran of the Korean War. “Fashion Component” is a graphic work that reassembles magazines and photos that inspired Kim when he studied fashion design at school."
+      },
+      "career": {
+        "title": "Works",
+        "list": {
+          "0": "KwanHoon Gallery – Director",
+          "1": "Glitchers – Creative Director, Artist ",
+          "2": "Documentary film “They Kill My Mother”–  Producer, Art Director, Actor",
+          "3": "Toykino Toy Museum – Art Director"
+        }
+      },
+      "exhibition": {
+        "title": "Exhibitions",
+        "item": {
+          "0": {
+            "title": "Private Exhibitions",
+            "list": {
+              "0": { "year": "2022", "text": "Banpo Art Academy (Scheduled) - Seoul, Korea" },
+              "1": { "year": "2022", "text": "“Space Oddity” at KwanHoon Gallery - Seoul, Korea" },
+              "2": { "year": "2022", "text": "“Space Oddity” at Seoul Gallery of Seoul Shinmun - Seoul, Korea" }
+            }
+          },
+          "1": {
+            "title": "Group Exhibitions",
+            "list": {
+              "0": { "year": "2022", "text": "“BWB 2022” at BEXCO - Busan, Korea" },
+              "1": { "year": "2022", "text": "“Earth Mood” at Gallery Earth - Seoul, Korea" },
+              "2": { "year": "2022", "text": "“GLITCHERS ART INVASION VOL.1” at Art Space Blue Screen - Seoul, Korea" },
+              "3": {
+                "year": "2020",
+                "text1": "“ERROR : 404 NOT FOUND” at Art Space Blue Screen - Seoul, Kore",
+                "text2": "“They Kill My Mother” at Leesoo Gallery - Seoul, Korea"
+              },
+              "4": { "year": "2018", "text": "“Hello New York” at Able Fine Art NY Gallery - New York, USA" },
+              "5": { "year": "2017", "text": "ASYAAF (Asian Students and Young Artists Art Festival) at Dongdaemun Design Plaza - Seoul, Korea" }
+            }
+          }
+        }
+      },
+      "whoNext": "Stay tuned for the next NFTs on \n Sights of NILE."
+    },
+    "overview": {
+      "key": {
+        "title": "Web3 Themed NFT Arts : \n Sights of NILE",
+        "subtitle": "'Sights of NILE' is a collection of NILE's view of Web3, and your views of NILE.",
+        "desc": "'Sights of NILE' is a project where the columns published by NILE, and the illustrations in 'Story3.0' articles are turned into NFT form, and NILE aims to touch on various trends and opinions on blockchain through the 'Story3.0' column. The diverse opinions of experts from various fields such as the arts, economics and blockchain will be condensed into inspired illustrations from Creators. NILE proposes to talk about the Web3 ecosystem that WEMIX dreams of in an original way - with the 'Sights of NILE'."
+      },
+      "cont1": {
+        "title": "The Creator's view, showcased in whole.",
+        "subtitle": "Gate to Web3 : Sights of Creators",
+        "desc": "The 'Sights of NILE' pieces are creations of the columnist's view realized in each 'Story3.0' article, reinterpreted in the illustrator(NFT Creator)'s view. The columnist and illustrator of each article is connected as one through NILE, showcasing the Creators' view in whole. Check out the illustrations born of Creators' inspirations through NILE auctions."
+      },
+      "cont2": {
+        "title": "Share your view with NILE.",
+        "subtitle": "View along with NILE : Sights of Community",
+        "desc": "Access the views of various experts with 'Story3.0' articles, and the views of curious Creators with the 'Sights of NILE'. And share your views of them with NILE. Your views will also change NILE's views in the 'Sights of NILE'."
+      },
+      "space": {
+        "desc": "If you want to know more about the more professional and fresh standpoints in Web3 and blockchain, where evolution takes place every day, meet eye to eye with NILE through the 'Sights of NILE' now.",
+        "btn": "View Story3.0"
+      },
+      "FAQ": {
+        "title": "FAQ",
+        "q1": {
+          "title": "What is the NFT issuing cycle like?",
+          "desc": "The NFT issuing cycle of the 'Sights of NILE' is the same as the publishing cycle of 'Story3.0' articles. Currently 'Story3.0' articles are planned to be published twice every month, and a new illustration NFT will be made public and auction proceedings will take place every time a new article is published."
+        },
+        "q2": {
+          "title": "How can I participate in auctions?",
+          "desc": "You can find information about pieces in ongoing auctions in the 'NFTs' tab in the top half of the webpage. Or, you could also participate in ongoing auctions in the 'NILE Marketplace' directly."
+        },
+        "q3": {
+          "title": "How are auctions advanced?",
+          "desc": "The English auction is used (the highest bidder is successful). Each subsequent bid is required to be higher than the previous bid, and the bidding is only available in $. The highest bid is kept for 3 hours after the bid is made, and the bid is confirmed as successful once there are no additional bids made in those 3 hours."
+        },
+        "q4": {
+          "title": "How can I withdraw my intention to buy after my bid is successful?",
+          "desc": "It is impossible to withdraw your intention to buy after your bid is successful. Please be careful and take caution when making your decision. By default, bids also cannot be withdrawn. Only in cases when there are higher bids can bids exceptionally be withdrawn. (However, Gas Fees must be paid)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collection": "Collection",
+  "nft": "NFT",
+  "onSale": "ON SALE",
+  "hero": {
+    "nile": {
+      "desc": "NILE의 비전을 담은 일러스트 삽화를 NFT로 만나보세요."
+    },
+    "lus": {
+      "desc": "영국에서의 추억이 담긴 장소로 연결해 주는 264개의 작품을 만나보세요."
+    },
+    "tangled": {
+      "desc": "Tangled은 유저 모두가 커뮤니티 형성에 직접적으로 기여하고 서로 소통할 수 있는 Web3 라이브 커뮤니티 앱입니다."
+    }
+  },
+  "ranking": {
+    "title": "Ranking",
+    "tabBtn": "Frequent Transactions",
+    "tabBtn2": "Highest last sale",
+    "notice": "일정 기간동안 발생한 Transactions이 많은 순으로 정산",
+    "notice2": "최근 판매가가 가장 비싼 순으로 정산",
+    "unit": "Ranking",
+    "unit2": "NFT",
+    "unit3": "Transactions a"
+  },
+  "bottom": {
+    "title": "NFT is for Everyone",
+    "notice": "NILE Marketplace에서는 다양한 분야의 NFT를 소개합니다. \n NILE과 함께하고 싶다면 언제든지 문의해 주세요."
+  },
+  "listing": {
+    "txt": "위 가격으로 작품 판매 시 아래 수수료를 제외한 금액을 판매 수익으로 얻을 수 있습니다.",
+    "txt2": ""
+  },
+  "detail": {
+    "auction": "추가 응찰이 없을 경우 KST 2022.03.02 17:00 옥션 종료됩니다."
+  },
+  "buyMysteryBox": "Mystery Box 구매하기",
+  "snkrzInfo": "SNKRZ 상세내용은 11월 17일부터 확인할 수 있습니다."
+}

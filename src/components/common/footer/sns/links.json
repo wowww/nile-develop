@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sns-twitter",
+    "name": "twitter",
+    "link": "https://twitter.com/WemixNetwork",
+    "icon": "/img/ico_footer_twitter.svg"
+  },
+  {
+    "id": "sns-medium",
+    "name": "medium",
+    "link": "https://medium.com/wemix-communication",
+    "icon": "/img/ico_footer_medium.svg"
+  },
+  {
+    "id": "sns-telegram",
+    "name": "telegram",
+    "link": "https://t.me/WEMIX_ANNouncement",
+    "icon": "/img/ico_footer_telegram.svg"
+  },
+  {
+    "id": "sns-facebook",
+    "name": "facebook",
+    "link": "https://www.facebook.com/WEMIXBlockchain",
+    "icon": "/img/ico_footer_facebook.svg"
+  },
+  {
+    "id": "sns-youtube",
+    "name": "youtube",
+    "link": "https://www.youtube.com/channel/UCm7NfySSdy2ljrnh64cUJXA",
+    "icon": "/img/ico_footer_youtube.svg"
+  }
+]

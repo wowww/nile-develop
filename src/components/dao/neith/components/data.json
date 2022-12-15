@@ -1,0 +1,44 @@
+[
+  {
+    "key": "station",
+    "name": "neith.item.0.title",
+    "icon": "/img/daoNeith/img_station.svg",
+    "description": "neith.item.0.desc"
+  },
+  {
+    "key": "trust",
+    "name": "neith.item.1.title",
+    "icon": "/img/daoNeith/img_trust.svg",
+    "description": "neith.item.1.desc"
+  },
+  {
+    "key": "treasury",
+    "name": "neith.item.2.title",
+    "icon": "/img/daoNeith/img_treasury.svg",
+    "description": "neith.item.2.desc"
+  },
+  {
+    "key": "staking-pool",
+    "name": "neith.item.3.title",
+    "icon": "/img/daoNeith/img_staking_pool.svg",
+    "description": "neith.item.3.desc"
+  },
+  {
+    "key": "furnace",
+    "name": "neith.item.4.title",
+    "icon": "/img/daoNeith/img_furnace.svg",
+    "description": "neith.item.4.desc"
+  },
+  {
+    "key": "governance",
+    "name": "neith.item.5.title",
+    "icon": "/img/daoNeith/img_governance.svg",
+    "description": "neith.item.5.desc"
+  },
+  {
+    "key": "creator",
+    "name": "neith.item.6.title",
+    "icon": "/img/daoNeith/img_creator.svg",
+    "description": "neith.item.6.desc"
+  }
+]

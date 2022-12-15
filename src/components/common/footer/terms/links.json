@@ -1,0 +1,44 @@
+[
+  {
+    "id": "terms-of-service",
+    "type": "text",
+    "name": "Terms of Service",
+    "link": "/policy/terms"
+  },
+  {
+    "id": "terms-of-privacy",
+    "type": "text",
+    "name": "Privacy Policy",
+    "link": "/policy/privacy"
+  },
+  {
+    "id": "cookie-policy",
+    "type": "text",
+    "name": "Cookie Policy",
+    "link": ""
+  },
+  {
+    "id": "california-privacy-statement",
+    "type": "text",
+    "name": "California Privacy Statement",
+    "link": ""
+  },
+  {
+    "id": "terms-of-service-for-marketplace",
+    "type": "text",
+    "name": "Terms of service for Marketplace",
+    "link": ""
+  },
+  {
+    "id": "sns-telegram",
+    "type": "text",
+    "name": "Support",
+    "link": "https://t.me/WEMIX_ANNouncement"
+  },
+  {
+    "id": "sns-facebook",
+    "type": "text",
+    "name": "FAQ",
+    "link": "https://www.facebook.com/WEMIXBlockchain"
+  }
+]

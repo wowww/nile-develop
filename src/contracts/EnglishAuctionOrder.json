@@ -1,0 +1,690 @@
+{
+  "address": "0xb573f92fa86c52767eea9c264a1b49a7498a524c",
+  "abi": [
+    {
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "market",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenManager",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "inputs": [],
+      "name": "InvalidOrderMaker",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256",
+          "indexed": true
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "orderMaker",
+          "type": "address"
+        }
+      ],
+      "name": "OrderCanceled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "type": "address",
+          "indexed": true,
+          "internalType": "address",
+          "name": "claimer"
+        }
+      ],
+      "name": "OrderClaimed",
+      "type": "event"
+    },
+    {
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "orderMaker",
+          "type": "address",
+          "indexed": true
+        },
+        {
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "price"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "OrderModified"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "offeror",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256",
+          "indexed": true
+        }
+      ],
+      "name": "OrderOffered",
+      "type": "event"
+    },
+    {
+      "type": "event",
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "name": "seller",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "type": "address",
+          "indexed": true,
+          "internalType": "address",
+          "name": "collection"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "payment",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "orderID",
+          "type": "uint256",
+          "indexed": false
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "orderAmount",
+          "type": "uint256"
+        },
+        {
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "startTime"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tid",
+          "type": "uint256",
+          "indexed": false
+        },
+        {
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "price"
+        }
+      ],
+      "name": "OrderOpened"
+    },
+    {
+      "name": "cancel",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "orderMaker",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "claimer",
+          "type": "address"
+        }
+      ],
+      "name": "claim",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "bidder",
+          "type": "address"
+        }
+      ],
+      "name": "getBiddingPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "name": "getEndTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ]
+    },
+    {
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "orderMaker",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "price",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "modify"
+    },
+    {
+      "name": "numberOfOrder",
+      "outputs": [
+        {
+          "type": "uint256",
+          "internalType": "uint256",
+          "name": ""
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": []
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "offeror",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "offer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256[]",
+          "internalType": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC1155BatchReceived",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "name": "",
+          "type": "bytes",
+          "internalType": "bytes"
+        }
+      ],
+      "name": "onERC1155Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "type": "uint256",
+          "internalType": "uint256",
+          "name": ""
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC721Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "enum Type.Round",
+              "name": "round",
+              "type": "uint8"
+            },
+            {
+              "internalType": "enum Type.OrderStatus",
+              "name": "orderStatus",
+              "type": "uint8"
+            },
+            {
+              "internalType": "address",
+              "name": "seller",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "collection",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "payment",
+              "type": "address"
+            },
+            {
+              "internalType": "address[]",
+              "name": "buyer",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256",
+              "name": "orderID",
+              "type": "uint256"
+            },
+            {
+              "name": "orderAmount",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "startTime",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tid",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "limit",
+              "type": "uint256"
+            },
+            {
+              "name": "totalSoldAmount",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "type": "uint256[]",
+              "internalType": "uint256[]",
+              "name": "soldAmount"
+            }
+          ],
+          "internalType": "struct Type.Order",
+          "name": "order",
+          "type": "tuple"
+        }
+      ],
+      "name": "open",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "type": "uint256",
+          "internalType": "uint256",
+          "name": "index"
+        }
+      ],
+      "name": "orderByIndex",
+      "outputs": [
+        {
+          "components": [
+            {
+              "name": "round",
+              "type": "uint8",
+              "internalType": "enum Type.Round"
+            },
+            {
+              "internalType": "enum Type.OrderStatus",
+              "name": "orderStatus",
+              "type": "uint8"
+            },
+            {
+              "name": "seller",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "type": "address",
+              "internalType": "address",
+              "name": "collection"
+            },
+            {
+              "internalType": "address",
+              "name": "payment",
+              "type": "address"
+            },
+            {
+              "internalType": "address[]",
+              "name": "buyer",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256",
+              "name": "orderID",
+              "type": "uint256"
+            },
+            {
+              "type": "uint256",
+              "internalType": "uint256",
+              "name": "orderAmount"
+            },
+            {
+              "internalType": "uint256",
+              "name": "startTime",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tid",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "limit",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "totalSoldAmount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "soldAmount",
+              "type": "uint256[]"
+            }
+          ],
+          "internalType": "struct Type.Order",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "inputs": [
+        {
+          "type": "address",
+          "internalType": "address",
+          "name": "seller"
+        }
+      ],
+      "name": "orderIndexesBySeller",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ]
+    }
+  ]
+}

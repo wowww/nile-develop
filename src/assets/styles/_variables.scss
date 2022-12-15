@@ -1,0 +1,49 @@
+// Font Family
+$fontFamily: "Noto Sans KR", sans-serif;
+$fontSerifEN: "Times New Roman", "Judson", serif;
+$fontSerifKR: "Times New Roman", "Judson", serif;
+$fontEN: "Roboto", sans-serif;
+$fontKR: "Noto Sans KR", sans-serif;
+
+// Font Size
+$baseSize: 16px;
+
+// breakpoint
+$breakpointSM: 768px;
+$breakpointMD: 1280px;
+$maxWidthLg: 1200px;
+$vh: var(--vh, 1vh);
+
+// image root path
+$rootPath: "../../images";
+$iconRootPath: "../images/icon";
+$publicPath: "/icons";
+
+// colors palette
+$black: #1a1a1a;
+$white: #fff;
+$gray100: #fff;
+$gray90: #f2f2f2;
+$gray80: #d9d9d9;
+$gray70: #bfbfbf;
+$gray60: #a6a6a6;
+$gray50: #8c8c8c;
+$gray40: #737373;
+$gray30: #595959;
+$gray20: #404040;
+$gray10: #2e2e2e;
+$gray00: #1a1a1a;
+
+// status
+$positive: #27c683;
+$negative: #fa5454;
+$warning: #ff810d;
+$highlight: #9860ff;
+
+// text color
+$textDefault: $black;
+$textSubdued: $gray30;
+$textDisabled: $gray60;
+
+// dao color system
+$daoWonder: #5e5ff5, #dadafb, #f3f3fc, #1a1a1a; // 임시컬러

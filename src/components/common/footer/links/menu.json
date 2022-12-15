@@ -1,0 +1,27 @@
+[
+  {
+    "id": "menu-dao",
+    "title": "DAO",
+    "path": "/dao"
+  },
+  {
+    "id": "menu-life",
+    "title": "Life",
+    "path": "/life"
+  },
+  {
+    "id": "menu-marketplace",
+    "title": "Marketplace",
+    "path": "/marketplace"
+  },
+  {
+    "id": "menu-community",
+    "title": "Community",
+    "path": "/community"
+  },
+  {
+    "id": "menu-tokens",
+    "title": "Tokens",
+    "path": "/tokens"
+  }
+]

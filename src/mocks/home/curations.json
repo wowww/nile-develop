@@ -1,0 +1,56 @@
+[
+  {
+    "category": "NFT",
+    "title": "home.choice.item.0.title",
+    "content": "home.choice.item.0.desc",
+    "thumbnail": "/public/temp/@temp_pick_thumbnail1.png",
+    "buttonList": [
+      {
+        "link": "/life/lus264",
+        "value": "View Project Details"
+      }
+    ],
+    "items": [
+      {
+        "nftId": 4,
+        "thumbnail": "/nft/lus264/4.png",
+        "name": "Alperton",
+        "status": "upcoming",
+        "price": 737,
+        "unit": "WEMIX$"
+      },
+      {
+        "nftId": 194,
+        "thumbnail": "/nft/lus264/194.png",
+        "name": "St Paul's",
+        "status": "upcoming",
+        "price": 1106,
+        "unit": "WEMIX$"
+      }
+    ]
+  },
+  {
+    "category": "Life",
+    "title": "home.choice.item.1.title",
+    "content": "home.choice.item.1.desc",
+    "thumbnail": "/public/temp/@temp_pick_thumbnail2.png",
+    "buttonList": [
+      {
+        "link": "/life/tangled",
+        "value": "Look Project"
+      }
+    ]
+  },
+  {
+    "category": "DAO",
+    "title": "home.choice.item.2.title",
+    "content": "home.choice.item.2.desc",
+    "thumbnail": "/public/temp/@temp_pick_thumbnail3.png",
+    "buttonList": [
+      {
+        "link": "/dao",
+        "value": "Go DAO"
+      }
+    ]
+  }
+]
